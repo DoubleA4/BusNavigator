@@ -1,13 +1,23 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println("Hello and welcome!");
+import java.util.List;
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
+public class Main {
+
+    public static void main(String[] args) {
+        // Load dummy network
+        TransitNetwork network = DummyNetworkBuilder.createDummyNetwork();
+
+        RouteFinder router = new RouteFinder(network);
+
+        // Find route from Central Station (S1) to Airport (S4)
+        List<Leg> journey = router.findRoute("S4", "S1");
+
+        if (journey.isEmpty()) {
+            System.out.println("No route found between specified stops.");
+        } else {
+            System.out.println("--- Journey Itinerary ---");
+            for (int i = 0; i < journey.size(); i++) {
+                System.out.printf("Step %d: %s%n", i + 1, journey.get(i));
+            }
+        }
     }
 }
