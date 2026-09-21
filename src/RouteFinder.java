@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class RouteFinder {
-    public List<Leg> findRoute(Stop startStop, Stop endStop) {
+    public static List<Leg> findRoute(Stop startStop, Stop endStop) {
         if (startStop == null || endStop == null) {
             return Collections.emptyList();
         }

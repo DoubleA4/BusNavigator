@@ -1,0 +1,4173 @@
+<?xml version="1.0" ?>
+<transitNetwork>
+  <routes>
+    <route shortName="R1" longName="Purabaya-Perak" color="#d23c41" textColor="white">
+      <stop>Terminal Purabaya</stop>
+      <stop>Dukuh Menanggal</stop>
+      <stop>Siwalankerto A</stop>
+      <stop>Taman Pelangi</stop>
+      <stop>RS Bhayangkara</stop>
+      <stop>UBHARA</stop>
+      <stop>PUSVETMA</stop>
+      <stop>Ketintang</stop>
+      <stop>Terminal Joyoboyo</stop>
+      <stop>Museum BI</stop>
+      <stop>Rumah Sakit Darmo</stop>
+      <stop>Gozco</stop>
+      <stop>Pandegiling</stop>
+      <stop>Urip Sumoharjo 1</stop>
+      <stop>Basra</stop>
+      <stop>Kaliasin</stop>
+      <stop>Embong Malang</stop>
+      <stop>Blauran</stop>
+      <stop>Pirngadi</stop>
+      <stop>Pasar Turi</stop>
+      <stop>Masjid Kemayoran</stop>
+      <stop>Indrapura</stop>
+      <stop>Ikan Kerapu A</stop>
+      <stop>Tanjung Torawitan A</stop>
+      <stop>Barunawati A</stop>
+      <stop>Pelindo Place A</stop>
+      <stop>Pelabuhan Tanjung Perak</stop>
+      <stop>Pelindo Place B</stop>
+      <stop>Barunawati B</stop>
+      <stop>Tanjung Torawitan B</stop>
+      <stop>Ikan Kerapu B</stop>
+      <stop>Rajawali</stop>
+      <stop>Jembatan Merah</stop>
+      <stop>Veteran</stop>
+      <stop>Tugu Pahlawan</stop>
+      <stop>Alun-Alun Contong</stop>
+      <stop>Siola</stop>
+      <stop>Tunjungan</stop>
+      <stop>Simpang Dukuh</stop>
+      <stop>Gubernur Suryo</stop>
+      <stop>Pangsud</stop>
+      <stop>Sono Kembang</stop>
+      <stop>Urip Sumoharjo 2</stop>
+      <stop>Pandegiling 2</stop>
+      <stop>Santa Maria</stop>
+      <stop>Darmo</stop>
+      <stop>Marmoyo</stop>
+      <stop>Joyoboyo 2</stop>
+      <stop>RSAL</stop>
+      <stop>Margorejo</stop>
+      <stop>Wonocolo</stop>
+      <stop>UIN</stop>
+      <stop>Jemur Ngawinan</stop>
+      <stop>Siwalankerto B</stop>
+      <stop>Kerto Menanggal</stop>
+    </route>
+    <route shortName="R2" longName="Kejawan-UNESA" color="#2f87a0" textColor="white">
+      <stop>Kejawan Putih Tambak</stop>
+      <stop>PENS 1 A</stop>
+      <stop>ITS</stop>
+      <stop>Manyar Kerta Adi</stop>
+      <stop>Klampis</stop>
+      <stop>Gramedia</stop>
+      <stop>Kertajaya A</stop>
+      <stop>Gubeng Airlangga</stop>
+      <stop>Lapangan Hockey</stop>
+      <stop>SMAN 4</stop>
+      <stop>Pemuda</stop>
+      <stop>Pangsud</stop>
+      <stop>Sono Kembang</stop>
+      <stop>Urip Sumoharjo 2</stop>
+      <stop>Pandegiling 2</stop>
+      <stop>Santa Maria</stop>
+      <stop>Bengawan 1</stop>
+      <stop>Kutai 1</stop>
+      <stop>KPU</stop>
+      <stop>Mayjend Sungkono</stop>
+      <stop>Darmo Park 2</stop>
+      <stop>Taman Makam Pahlawan 1</stop>
+      <stop>Putat Gede 1</stop>
+      <stop>Pradah Kali Kendal A</stop>
+      <stop>Patung Kuda 1</stop>
+      <stop>Jono Soewojo 1</stop>
+      <stop>PTC B</stop>
+      <stop>Graha Family B</stop>
+      <stop>Bundaran UNESA</stop>
+      <stop>UNESA</stop>
+      <stop>Graha Family A</stop>
+      <stop>PTC A</stop>
+      <stop>Jono Soewojo 2</stop>
+      <stop>Patung Kuda 2</stop>
+      <stop>Putat Gede 2</stop>
+      <stop>Taman Makam Pahlawan 2</stop>
+      <stop>Park and Ride Mayjen Sungkono</stop>
+      <stop>Darmo Park 1</stop>
+      <stop>Gedung Juang 45</stop>
+      <stop>Aditya Warman</stop>
+      <stop>Kutai 2</stop>
+      <stop>Bengawan 2</stop>
+      <stop>Rumah Sakit Darmo</stop>
+      <stop>Gozco</stop>
+      <stop>Pandegiling</stop>
+      <stop>Basra</stop>
+      <stop>Kaliasin</stop>
+      <stop>Embong Malang</stop>
+      <stop>Sindoro A</stop>
+      <stop>SMPN 3 </stop>
+      <stop>Siola</stop>
+      <stop>Tunjungan</stop>
+      <stop>Simpang Dukuh</stop>
+      <stop>Gubernur Suryo</stop>
+      <stop>Balai Kota</stop>
+      <stop>Grand City</stop>
+      <stop>Moestopo</stop>
+      <stop>RSUD Dr Soetomo</stop>
+      <stop>UNAIR Kampus B</stop>
+      <stop>Kertajaya B</stop>
+      <stop>Samsat Manyar</stop>
+      <stop>Koni 2</stop>
+      <stop>Kertajaya Indah</stop>
+      <stop>Bundaran ITS</stop>
+      <stop>PENS 2</stop>
+      <stop>Laguna</stop>
+      <stop>PCM</stop>
+    </route>
+    <route shortName="R4" longName="Purabaya-UNAIR Kampus C" color="#D7A561" textColor="white">
+      <stop>Terminal Purabaya</stop>
+      <stop>Dukuh Menanggal</stop>
+      <stop>Siwalankerto A</stop>
+      <stop>Taman Pelangi</stop>
+      <stop>Jemursari A</stop>
+      <stop>RSI Jemursari A</stop>
+      <stop>Kantor Pertamina A</stop>
+      <stop>Kantor Dinas Kesehatan A</stop>
+      <stop>Prapen Indah Timur A</stop>
+      <stop>Sidosermo Indah</stop>
+      <stop>Nginden A</stop>
+      <stop>Terminal Bratang</stop>
+      <stop>Taman Flora A</stop>
+      <stop>UBAYA Ngagel B</stop>
+      <stop>Krukah Timur</stop>
+      <stop>Ngagel Jaya A</stop>
+      <stop>Puskesmas Pucang Sewu A</stop>
+      <stop>Gedung Pamulangan A</stop>
+      <stop>Gubeng Kertajaya A</stop>
+      <stop>Gubeng Airlangga</stop>
+      <stop>Lapangan Hockey</stop>
+      <stop>UNAIR Kampus A</stop>
+      <stop>Kedung Tarukan A</stop>
+      <stop>Mojo Kidul A</stop>
+      <stop>SMKN 5 A</stop>
+      <stop>Simpang Dharmahusada Utara A</stop>
+      <stop>Kalikepiting</stop>
+      <stop>Kalijudan Indah A</stop>
+      <stop>SMP Hidayatul Ummah</stop>
+      <stop>Mulyorejo B</stop>
+      <stop>UNAIR 2</stop>
+      <stop>RS UNAIR</stop>
+      <stop>Sutorejo Barat</stop>
+      <stop>Dharmahusada Regency</stop>
+      <stop>UNAIR Kampus C</stop>
+      <stop>GALAXY 2</stop>
+      <stop>Kertajaya Indah</stop>
+      <stop>Bundaran ITS</stop>
+      <stop>PENS 2</stop>
+      <stop>PENS 1 A</stop>
+      <stop>ITS</stop>
+      <stop>Manyar Kerta Adi</stop>
+      <stop>KONI MERR 3L</stop>
+      <stop>GALAXY 1</stop>
+      <stop>UNAIR 1</stop>
+      <stop>Airlangga Convention Center</stop>
+      <stop>SMA Hidayatul Ummah</stop>
+      <stop>Kalijudan Indah B</stop>
+      <stop>Simpang Dharmahusada Utara B</stop>
+      <stop>SWK Dharmahusada A</stop>
+      <stop>SMKN 5 B</stop>
+      <stop>Mojo Kidul B</stop>
+      <stop>Kedung Tarukan B</stop>
+      <stop>RSUD Dr Soetomo 2</stop>
+      <stop>RSUD Dr Soetomo</stop>
+      <stop>UNAIR Kampus B</stop>
+      <stop>Gubeng Kertajaya B</stop>
+      <stop>Gedung Pamulangan B</stop>
+      <stop>Puskesmas Pucang Sewu B</stop>
+      <stop>Ngagel Jaya B</stop>
+      <stop>Bilka</stop>
+      <stop>UBAYA Ngagel A</stop>
+      <stop>Taman Flora B</stop>
+      <stop>Manyar</stop>
+      <stop>Nginden B</stop>
+      <stop>SMAN 16</stop>
+      <stop>Prapen Indah Timur B</stop>
+      <stop>Kantor Dinas Kesehatan B</stop>
+      <stop>Kantor Pertamina B</stop>
+      <stop>RSI Jemursari B</stop>
+      <stop>Jemursari B</stop>
+      <stop>Jemur Ngawinan</stop>
+      <stop>Siwalankerto B</stop>
+      <stop>Kerto Menanggal</stop>
+    </route>
+    <route shortName="R5" longName="Term. Benowo-Tunjungan" color="#FF7DB3" textColor="white">
+      <stop>Terminal Benowo</stop>
+      <stop>Singgapur A</stop>
+      <stop>Raya Sumberejo A</stop>
+      <stop>Sumberejo Makmur 1A</stop>
+      <stop>Sumberejo Makmur 2A</stop>
+      <stop>Puskesmas Sumberejo A</stop>
+      <stop>Griya Surabaya Asri</stop>
+      <stop>Jembatan Cinta</stop>
+      <stop>Griya Surabaya Asri</stop>
+      <stop>Puskesmas Sumberejo B</stop>
+      <stop>Sumberejo Makmur 2B</stop>
+      <stop>Sumberejo Makmur 1B</stop>
+      <stop>Singgapur B</stop>
+      <stop>Stasiun Benowo A</stop>
+      <stop>Kantor Kecamatan Pakal A</stop>
+      <stop>Universitas Wijaya Putra A</stop>
+      <stop>Polsek Benowo A</stop>
+      <stop>Kantor Kelurahan Kandangan A</stop>
+      <stop>Kantor Kelurahan Banjar Sugihan A</stop>
+      <stop>Manukan Kulon A</stop>
+      <stop>Bibis A</stop>
+      <stop>Karangpoh A</stop>
+      <stop>Samsat Tandes 2</stop>
+      <stop>Tanjungsari A</stop>
+      <stop>Simojawar A</stop>
+      <stop>Simo Kalangan A</stop>
+      <stop>Simo Katrungan Kidul A</stop>
+      <stop>Banyu Urip A</stop>
+      <stop>Butulan A</stop>
+      <stop>Pasar Kembang A</stop>
+      <stop>Kupang Krajan A</stop>
+      <stop>Wonorejo A</stop>
+      <stop>Kedung Doro A</stop>
+      <stop>Sindoro A</stop>
+      <stop>SMPN 3 </stop>
+      <stop>Siola</stop>
+      <stop>Tunjungan</stop>
+      <stop>Simpang Dukuh</stop>
+      <stop>Gubernur Suryo</stop>
+      <stop>Pangsud</stop>
+      <stop>Sono Kembang</stop>
+      <stop>Basra 2</stop>
+      <stop>Kaliasin</stop>
+      <stop>Embong Malang</stop>
+      <stop>Embong Malang 2</stop>
+      <stop>Kedung Doro B</stop>
+      <stop>Wonorejo B</stop>
+      <stop>Kupang Krajan B</stop>
+      <stop>Pasar Kembang B</stop>
+      <stop>Butulan B</stop>
+      <stop>Banyu Urip B</stop>
+      <stop>Simo Katrungan Kidul B</stop>
+      <stop>Simo Kalangan B</stop>
+      <stop>Simo Jawar 1 B</stop>
+      <stop>Tanjungsari B</stop>
+      <stop>Samsat Tandes 1</stop>
+      <stop>Karangpoh B</stop>
+      <stop>Bibis B</stop>
+      <stop>Manukan Kulon B</stop>
+      <stop>Kantor Kelurahan Banjar Sugihan B</stop>
+      <stop>Kantor Kelurahan Kandangan B</stop>
+      <stop>Polsek Benowo B</stop>
+      <stop>Universitas Wijaya Putra B</stop>
+      <stop>Kantor Kecamatan Pakal B</stop>
+      <stop>Stasiun Benowo B</stop>
+    </route>
+    <route shortName="2" longName="Mayjend Sungkono-Balai Kota" color="#8c2f31" textColor="white">
+      <stop>Park and Ride Mayjen Sungkono</stop>
+      <stop>Darmo Park 1</stop>
+      <stop>Bintang Diponggo A</stop>
+      <stop>SMP Gema 45 A</stop>
+      <stop>Pakis Tirtosari A</stop>
+      <stop>Wonokitri Besar A</stop>
+      <stop>Pakis Gunung A</stop>
+      <stop>Pasar Pakis A</stop>
+      <stop>Prapanca A</stop>
+      <stop>Amir Hamzah A</stop>
+      <stop>Khairil Anwar</stop>
+      <stop>Bank Danamon Diponegoro</stop>
+      <stop>WR Supratman A</stop>
+      <stop>Imam Bonjol</stop>
+      <stop>Teuku Umar A</stop>
+      <stop>Sawunggaling A</stop>
+      <stop>Pandegiling</stop>
+      <stop>Urip Sumoharjo 1</stop>
+      <stop>Basra</stop>
+      <stop>Basra 2</stop>
+      <stop>Embong Wungu</stop>
+      <stop>Taman Apsari</stop>
+      <stop>Gubernur Suryo</stop>
+      <stop>Pangsud</stop>
+      <stop>Bambu Runcing</stop>
+      <stop>PMI</stop>
+      <stop>Kayoon 1A</stop>
+      <stop>Kayoon 2A</stop>
+      <stop>Monkasel</stop>
+      <stop>Pemuda</stop>
+      <stop>Yos Sudarso</stop>
+      <stop>Balai Kota</stop>
+      <stop>Grand City</stop>
+      <stop>Kayoon 2B</stop>
+      <stop>Kayoon 1B</stop>
+      <stop>Embong Kemiri</stop>
+      <stop>Sono Kembang</stop>
+      <stop>Urip Sumoharjo 2</stop>
+      <stop>Pandegiling 2</stop>
+      <stop>Kartini</stop>
+      <stop>Teuku Umar B</stop>
+      <stop>SDN Kristen Petra</stop>
+      <stop>Kupang Segunting</stop>
+      <stop>WR Supratman B</stop>
+      <stop>Anwari</stop>
+      <stop>Simpang Kartini</stop>
+      <stop>Ronggowarsito</stop>
+      <stop>Banyu Urip Wetan</stop>
+      <stop>Kembang Kuning</stop>
+      <stop>Masjid Rahmat</stop>
+      <stop>Amir Hamzah B</stop>
+      <stop>Prapanca B</stop>
+      <stop>Pasar Pakis B</stop>
+      <stop>Pakis Gunung B</stop>
+      <stop>Wonokitri Besar B</stop>
+      <stop>Pakis Tirtosari B</stop>
+      <stop>SMP Gema 45 B</stop>
+      <stop>Bintang Diponggo B</stop>
+      <stop>Darmo Park 2</stop>
+      <stop>Park and Ride Mayjend Sungkono B</stop>
+    </route>
+    <route shortName="3" longName="TIJ - Gunung Anyar" color="#43b0dc" textColor="white">
+      <stop>Terminal Joyoboyo</stop>
+      <stop>KBS</stop>
+      <stop>Marmoyo</stop>
+      <stop>Joyoboyo 2</stop>
+      <stop>Stasiun Wonokromo A</stop>
+      <stop>SDN Ngagel A</stop>
+      <stop>SPBU Ngagel A</stop>
+      <stop>Novotel A</stop>
+      <stop>Ngagel 1A</stop>
+      <stop>Marvel</stop>
+      <stop>Bung Tomo</stop>
+      <stop>TMP Ngagel 1</stop>
+      <stop>Ngagel Jaya Barat</stop>
+      <stop>Ngagel Jaya Selatan</stop>
+      <stop>Bilka</stop>
+      <stop>Ngagel Madya A</stop>
+      <stop>UBAYA Ngagel A</stop>
+      <stop>Taman Flora B</stop>
+      <stop>Manyar</stop>
+      <stop>Makam Pumpungan A</stop>
+      <stop>UNTAG A</stop>
+      <stop>Nginden Semolo A</stop>
+      <stop>Semolowaru A</stop>
+      <stop>Semolowaru Elok A</stop>
+      <stop>Simpang Semolowaru A</stop>
+      <stop>Semolowaru Tengah A</stop>
+      <stop>Semolowaru Masjid A</stop>
+      <stop>Semampir Tengah A</stop>
+      <stop>Medokan Semampir A</stop>
+      <stop>Terowongan Medokan A</stop>
+      <stop>MERR Semampir A</stop>
+      <stop>SKG MERR A</stop>
+      <stop>SKG MERR B</stop>
+      <stop> MERR Semampir B</stop>
+      <stop>Ruko Kedung Baruk</stop>
+      <stop>Simpang Kedung Baruk A</stop>
+      <stop>SDN Kedung Baruk A</stop>
+      <stop>Kedung Baruk Masjid A</stop>
+      <stop>Kedung Baruk  Gang Patung A</stop>
+      <stop>SD Islam Yamassa A</stop>
+      <stop>Kedung Asem Masjid A</stop>
+      <stop>Simpang Kedung Asem A</stop>
+      <stop>Pasar Sinar Baru  A</stop>
+      <stop>MI Al Bukhori A</stop>
+      <stop>Pandugo A (EKSISTING)</stop>
+      <stop>Pandugo B (EKSISTING)</stop>
+      <stop>Pasar Wisata Penjaringan Sari A</stop>
+      <stop>SWK Penjaringan Sari A</stop>
+      <stop>Wisma Penjaringan Sari A</stop>
+      <stop>YKP Pandugo A</stop>
+      <stop>Graha YKP A</stop>
+      <stop>Medokan Asri Utara A</stop>
+      <stop>Penjaringan Asri 1A</stop>
+      <stop>Penjaringan Asri 2A</stop>
+      <stop>Medokan Asri Tengah B</stop>
+      <stop>RSUD Surabaya Timur</stop>
+      <stop>Medokan Asri Tengah A</stop>
+      <stop>Medokan Asri Timur A</stop>
+      <stop>Medokan Asri Barat A</stop>
+      <stop>Rungkut Asri Timur A</stop>
+      <stop>Rektorat UPN A</stop>
+      <stop>Gunung Anyar Sawah A</stop>
+      <stop>SWK Gunung Anyar A</stop>
+      <stop>Gunung Anyar Jaya</stop>
+      <stop>Puri Jimbaran A</stop>
+      <stop>Wiguna A</stop>
+      <stop>Taman Rivera A</stop>
+      <stop>Medokan Sawah Timur A</stop>
+      <stop>KRM Gunung Anyar</stop>
+      <stop>Medokan Sawah Timur B</stop>
+      <stop>Taman Rivera B</stop>
+      <stop>Wiguna Tengah A</stop>
+      <stop>Taman Wiguna Timur A</stop>
+      <stop>Wiguna Timur A</stop>
+      <stop>Wiguna Timur 2</stop>
+      <stop>Kelurahan Gunung Anyar Tambak A</stop>
+      <stop>Central Park A</stop>
+      <stop>Gunung Anyar Tambak A</stop>
+      <stop>Gunung Anyar Asri A</stop>
+      <stop>Bumi Pratama Asri A</stop>
+      <stop>Evergreen A</stop>
+      <stop>POLTEKPEL</stop>
+      <stop>Pesona Alam Gunung Anyar A</stop>
+      <stop>Gapercy A</stop>
+      <stop>MERR Gunung Anyar</stop>
+      <stop>Pasar Gunung Anyar B</stop>
+      <stop>Pasar Gunung Anyar A</stop>
+      <stop>Gunung Anyar Timur A</stop>
+      <stop>Gunung Anyar Timur B</stop>
+      <stop>Gapercy B</stop>
+      <stop>Pesona Alam Gunung Anyar B</stop>
+      <stop>SMPN 62</stop>
+      <stop>Evergreen B</stop>
+      <stop>Bumi Pratama Asri B</stop>
+      <stop>Gunung Anyar Tambak B</stop>
+      <stop>Central Park B</stop>
+      <stop>Kelurahan Gunung Anyar Tambak B</stop>
+      <stop>Wiguna Timur B</stop>
+      <stop>Taman Wiguna Timur B</stop>
+      <stop>Wiguna Tengah B</stop>
+      <stop>Wiguna B</stop>
+      <stop>Puri Jimbaran B</stop>
+      <stop>Gunung Anyar Jaya B</stop>
+      <stop>SWK Gunung Anyar B</stop>
+      <stop>Gunung Anyar Sawah B</stop>
+      <stop>Rektorat UPN B</stop>
+      <stop>Rungkut Asri Timur B</stop>
+      <stop>Medokan Asri Barat B</stop>
+      <stop>Medokan Asri Timur B</stop>
+      <stop>Medokan Asri Tengah B</stop>
+      <stop>RSUD Surabaya Timur</stop>
+      <stop>Medokan Asri Tengah A</stop>
+      <stop>Penjaringan Asri 2B</stop>
+      <stop>Penjaringan Asri 1B</stop>
+      <stop>Medokan Asri Utara B</stop>
+      <stop>Wisma Penjaringan Sari B</stop>
+      <stop>SWK Penjaringan Sari B</stop>
+      <stop>Pasar Wisata Penjaringan Sari B</stop>
+      <stop>MI Al Bukhori B</stop>
+      <stop>Pasar Sinar Baru B</stop>
+      <stop>Simpang Kedung Asem B</stop>
+      <stop>Kedung Asem Masjid B</stop>
+      <stop>SD Islam Yamassa B</stop>
+      <stop>Kedung Baruk Gang Patung B</stop>
+      <stop>Kedung Baruk Masjid B</stop>
+      <stop>SDN Kedung Baruk B</stop>
+      <stop>Simpang Kedung Baruk B</stop>
+      <stop>Terowongan Medokan B</stop>
+      <stop>Medokan Semampir B</stop>
+      <stop>Semampir Tengah B</stop>
+      <stop>Semolowaru Masjid B</stop>
+      <stop>Semolowaru Tengah B</stop>
+      <stop>Simpang Semolowaru B</stop>
+      <stop>Semolowaru Elok B</stop>
+      <stop>Semolowaru B</stop>
+      <stop>Nginden Semolo B</stop>
+      <stop>UNTAG B</stop>
+      <stop>Makam Pumpungan B</stop>
+      <stop>Terminal Bratang</stop>
+      <stop>Ruko Barata Jaya</stop>
+      <stop>Pegadaian Bratang Binangun</stop>
+      <stop>Maybank Bratang Binangun</stop>
+      <stop>Ngagel Madya B</stop>
+      <stop>Krukah Timur</stop>
+      <stop>Pasar Krukah</stop>
+      <stop>Krukah Tengah</stop>
+      <stop>TMP Ngagel 2</stop>
+      <stop>Upa Jiwa</stop>
+      <stop>Ratna</stop>
+      <stop>Ngagel 1B</stop>
+      <stop>Novotel B</stop>
+      <stop>SPBU Ngagel B</stop>
+      <stop>SDN Ngagel B</stop>
+      <stop>Stasiun Wonokromo B</stop>
+      <stop>RSI A. Yani</stop>
+    </route>
+    <route shortName="4" longName="SIER-Kota Lama" color="#8f6768" textColor="white">
+      <stop>RS Royal</stop>
+      <stop>Kendangsari Industri A</stop>
+      <stop>Kantor Pos Kendangsari A</stop>
+      <stop>RSIA Kendangsari A</stop>
+      <stop>Kendangsari A</stop>
+      <stop>Simpang Tenggilis Barat A</stop>
+      <stop>Kantor Pertamina B</stop>
+      <stop>Kantor Pertamina A</stop>
+      <stop>Tenggilis Barat A</stop>
+      <stop>Plaza Marina A</stop>
+      <stop>Margorejo Indah A</stop>
+      <stop>Superindo Margorejo A</stop>
+      <stop>Maspion Square</stop>
+      <stop>Ketintang</stop>
+      <stop>RSI A. Yani</stop>
+      <stop>Terminal Joyoboyo</stop>
+      <stop>KBS</stop>
+      <stop>Marmoyo</stop>
+      <stop>Darmokali 1A</stop>
+      <stop>Darmokali 2A</stop>
+      <stop>Progo A</stop>
+      <stop>Ngagel 1A</stop>
+      <stop>Dinoyo A</stop>
+      <stop>Kantor Pajak Dinoyo A</stop>
+      <stop>Universitas Widya Mandala A</stop>
+      <stop>Sumbawa</stop>
+      <stop>Jawa</stop>
+      <stop>PMI Sumatera A</stop>
+      <stop>Pengadilan Tinggi A</stop>
+      <stop>Sumatera A</stop>
+      <stop>Legundi A</stop>
+      <stop>Bkr Pelajar</stop>
+      <stop>Kantor Pemkot</stop>
+      <stop>GSJA Eben Haezer</stop>
+      <stop>RS Mata Undaan A</stop>
+      <stop>RS Adi Husada Undaan A</stop>
+      <stop>Simpang Gembong Tebasan A</stop>
+      <stop>Gembong Tebasan A</stop>
+      <stop>RS Adi Husada Kapasari A</stop>
+      <stop>Gembong Sawahan A</stop>
+      <stop>Polsek Simokerto A</stop>
+      <stop>ITC</stop>
+      <stop>Pasar Atom 1</stop>
+      <stop>Pasar Atom 2</stop>
+      <stop>Terminal Kasuari</stop>
+      <stop>Veteran</stop>
+      <stop>Pasar Atom 2</stop>
+      <stop>Pasar Atom 1</stop>
+      <stop>ITC</stop>
+      <stop>Polsek Simokerto B</stop>
+      <stop>Gembong Sawahan B</stop>
+      <stop>RS Adi Husada Kapasari B</stop>
+      <stop>Gembong Tebasan B</stop>
+      <stop>Simpang Gembong Tebasan B</stop>
+      <stop>RS Adi Husada Undaan B</stop>
+      <stop>RS Mata Undaan B</stop>
+      <stop>Kamboja</stop>
+      <stop>Jaksa Agung Suprapto</stop>
+      <stop>Balai Kota</stop>
+      <stop>Pandan</stop>
+      <stop>Legundi B</stop>
+      <stop>Sumatera B</stop>
+      <stop>Ruko Gubeng B</stop>
+      <stop>Taman Lansia B</stop>
+      <stop>Taman Lansia A</stop>
+      <stop>Pengadilan Tinggi B</stop>
+      <stop>PMI Sumatera B</stop>
+      <stop>Biliton 1</stop>
+      <stop>Biliton 2</stop>
+      <stop>Sulawesi</stop>
+      <stop>Universitas Widya Mandala B</stop>
+      <stop>Kantor Pajak Dinoyo B</stop>
+      <stop>Dinoyo B</stop>
+      <stop>Marvel</stop>
+      <stop>Upa Jiwa</stop>
+      <stop>Ratna</stop>
+      <stop>Progo B</stop>
+      <stop>Darmokali 2B</stop>
+      <stop>Darmokali 1B</stop>
+      <stop>Joyoboyo 2</stop>
+      <stop>RSAL</stop>
+      <stop>Margorejo</stop>
+      <stop>Margorejo 2</stop>
+      <stop>Superindo Margorejo B</stop>
+      <stop>Margorejo Indah B</stop>
+      <stop>Plaza Marina B</stop>
+      <stop>Kantor Dinas Kesehatan A</stop>
+      <stop>Kantor Dinas Kesehatan B</stop>
+      <stop>Tenggilis Barat B</stop>
+      <stop>Simpang Tenggilis Barat B</stop>
+      <stop>Kendangsari B</stop>
+      <stop>RSIA Kendangsari B</stop>
+      <stop>Kantor Pos Kendangsari B</stop>
+      <stop>Kendangsari Industri B</stop>
+    </route>
+    <route shortName="5" longName="Mayjend Sungkono-Puspa Raya" color="#6b9048" textColor="white">
+      <stop>Park and Ride Mayjen Sungkono</stop>
+      <stop>Darmo Park 1</stop>
+      <stop>Bintang Diponggo B</stop>
+      <stop>Darmo Park 2</stop>
+      <stop>Park and Ride Mayjend Sungkono B</stop>
+      <stop>Islamic Center B</stop>
+      <stop>Dukuh Kupang B</stop>
+      <stop>Puskesmas Dukuh Kupang B</stop>
+      <stop>Terminal Dukuh Kupang</stop>
+      <stop>Dukuh Kupang Barat 2B</stop>
+      <stop>Dharma Mulya B</stop>
+      <stop>Dukuh Kupang Barat B</stop>
+      <stop>Kupang Jaya B</stop>
+      <stop>Simo Hilir B</stop>
+      <stop>Sekolah Kristen Kalam Kudus B</stop>
+      <stop>IKADO B</stop>
+      <stop>Ruko Darmo Permai B</stop>
+      <stop>Pasar Modern Darmo Permai B</stop>
+      <stop>Darmo Permai III B</stop>
+      <stop>Puncak Permai I B</stop>
+      <stop>Puncak Permai Utara B</stop>
+      <stop>Polsekta Tandes B</stop>
+      <stop>Darmo Permai Utara B</stop>
+      <stop>Simpang Darmo Permai Selatan B</stop>
+      <stop>Dukuh Bulu B</stop>
+      <stop>Bulu Jaya B</stop>
+      <stop>Pradah Indah B</stop>
+      <stop>PTC B</stop>
+      <stop>Graha Family B</stop>
+      <stop>Graha Family A</stop>
+      <stop>PTC A</stop>
+      <stop>Pakuwon Indah B</stop>
+      <stop>RSIA Lontar B</stop>
+      <stop>Molin B</stop>
+      <stop>Lontar 2 B</stop>
+      <stop>Lontar 1 B</stop>
+      <stop>Patung Burung B</stop>
+      <stop>Bundaran G-Walk B</stop>
+      <stop> G-Walk 2 B</stop>
+      <stop>G Walk B</stop>
+      <stop>Widya Kencana B</stop>
+      <stop>Niaga Gapura B</stop>
+      <stop>Sekolah Ciputra B</stop>
+      <stop>Telaga Utama 2B</stop>
+      <stop>Telaga Utama 1B</stop>
+      <stop>Patung Kubus B</stop>
+      <stop>Sentra Taman Gapura B</stop>
+      <stop>Bukit Golf A</stop>
+      <stop>Made A</stop>
+      <stop>Ciputra Hospital A</stop>
+      <stop>Universitas Ciputra</stop>
+      <stop>UC Loop</stop>
+      <stop>Ciputra Hospital B</stop>
+      <stop>Made B</stop>
+      <stop>Bukit Golf B</stop>
+      <stop>Kalijaran B</stop>
+      <stop>Taman Puspa Raya B</stop>
+      <stop>Pasar Modern Citraland A</stop>
+      <stop>Ngemplak A</stop>
+      <stop>Alas Malang A</stop>
+      <stop>Kendung A</stop>
+      <stop>RS Bhakti Dharmahusada</stop>
+      <stop>Kendung B</stop>
+      <stop>Alas Malang B</stop>
+      <stop>Ngemplak B</stop>
+      <stop>Pasar Modern Citraland B</stop>
+      <stop>Kalijaran A</stop>
+      <stop>Sentra Taman Gapura A</stop>
+      <stop>Patung Kubus A</stop>
+      <stop>Telaga Utama 1A</stop>
+      <stop>Telaga Utama 2A</stop>
+      <stop>Sekolah Ciputra A</stop>
+      <stop>Niaga Gapura A</stop>
+      <stop>Widya Kencana A</stop>
+      <stop>G WAlk A</stop>
+      <stop> Haltte G-Walk 2 A</stop>
+      <stop>Bundaran G-Walk A</stop>
+      <stop>Patung Burung A</stop>
+      <stop>Lontar 1 A</stop>
+      <stop>Lontar 2 A</stop>
+      <stop>Molin A</stop>
+      <stop>RSIA Lontar A</stop>
+      <stop>Pakuwon Indah A</stop>
+      <stop>PTC B</stop>
+      <stop>Graha Family B</stop>
+      <stop>Graha Family A</stop>
+      <stop>PTC A</stop>
+      <stop>Pradah Indah A</stop>
+      <stop>Bulu Jaya A</stop>
+      <stop>Dukuh Bulu A</stop>
+      <stop>Simpang Darmo Permai Selatan A</stop>
+      <stop>Darmo Permai Utara A</stop>
+      <stop>Polsekta Tandes A</stop>
+      <stop>Puncak Permai Utara A</stop>
+      <stop>Puncak Permai I A</stop>
+      <stop>Darmo Permai III A</stop>
+      <stop>Pasar Modern Darmo Permai A</stop>
+      <stop>Ruko Darmo Permai A</stop>
+      <stop>IKADO A</stop>
+      <stop>Sekolah Kristen Kalam Kudus A</stop>
+      <stop>Simo Hilir A</stop>
+      <stop>Kupang Jaya A</stop>
+      <stop>Dukuh Kupang Barat A</stop>
+      <stop>Dharma Mulya A</stop>
+      <stop>Dukuh Kupang Barat 2A</stop>
+      <stop>Terminal Dukuh Kupang</stop>
+      <stop>Puskesmas Dukuh Kupang A</stop>
+      <stop>Dukuh Kupang A</stop>
+      <stop>Islamic Center A</stop>
+    </route>
+    <route shortName="6" longName="TIJ - Lakarsantri" color="#da8539" textColor="white">
+      <stop>Terminal Joyoboyo</stop>
+      <stop>Waringin A</stop>
+      <stop>Taman Ronggolawe A</stop>
+      <stop>Rusun Gunung Sari A</stop>
+      <stop>Gajah Mada A</stop>
+      <stop>Pasar Ikan A</stop>
+      <stop>Jembatan Rolak A</stop>
+      <stop>Jogoloyo A</stop>
+      <stop>Jarsongo A</stop>
+      <stop>Mastrip A</stop>
+      <stop>Gogor A</stop>
+      <stop>Gemol A</stop>
+      <stop>Universitas Wijaya Putra</stop>
+      <stop>SWK Wiyung A</stop>
+      <stop>Kecamatan Wiyung A</stop>
+      <stop>Taman Mozaik A</stop>
+      <stop>Pondok Rosan A</stop>
+      <stop>Graha Sampoerna Indah</stop>
+      <stop>Royal Residence A</stop>
+      <stop>Griya Babatan Mukti A</stop>
+      <stop>Babatan A</stop>
+      <stop>Babatan Gang Musholla A</stop>
+      <stop>UNESA</stop>
+      <stop>Graha Family A</stop>
+      <stop>PTC A</stop>
+      <stop>PTC B</stop>
+      <stop>Graha Family B</stop>
+      <stop>Bundaran UNESA</stop>
+      <stop>Babatan Gang Musholla B</stop>
+      <stop>Babatan B</stop>
+      <stop>Babatan Indah A</stop>
+      <stop>Villa Bukit Mas A</stop>
+      <stop>Lembah Harapan A</stop>
+      <stop>Lidah Wetan A</stop>
+      <stop>SMPN 28 A</stop>
+      <stop>Prambanan Residence A</stop>
+      <stop>Bank Jatim Lidah Kulon A</stop>
+      <stop>Lidah Kulon A</stop>
+      <stop>Sepat Lidah Kulon 1A</stop>
+      <stop>Wisma Lidah Kulon A</stop>
+      <stop>Wisma Lidah Kulon II A</stop>
+      <stop>GKRI Calvary A</stop>
+      <stop>Terminal Lidah Kulon</stop>
+      <stop>GKRI Calvary B</stop>
+      <stop>Wisma Lidah Kulon II B</stop>
+      <stop>Wisma Lidah Kulon B</stop>
+      <stop>SDN Lidah Kulon I A</stop>
+      <stop>Sepat Lidah Kulon 2A</stop>
+      <stop>Bank BRI Lakarsantri A</stop>
+      <stop>Kantor Kelurahan Jeruk A</stop>
+      <stop>Jeruk A</stop>
+      <stop>Banjar Melati A</stop>
+      <stop>Lakarsantri A</stop>
+      <stop>PMK Lakarsantri</stop>
+      <stop>Lakarsantri B</stop>
+      <stop>Banjar Melati B</stop>
+      <stop>Jeruk B</stop>
+      <stop>Kantor Kelurahan Jeruk B</stop>
+      <stop>Bank BRI Lakarsantri B</stop>
+      <stop>Sepat Lidah Kulon 2B</stop>
+      <stop>SDN Lidah Kulon I B</stop>
+      <stop>Sepat Lidah Kulon 1B</stop>
+      <stop>Lidah Kulon B</stop>
+      <stop>Bank Jatim Lidah Kulon B</stop>
+      <stop>Prambanan Residence B</stop>
+      <stop>SMPN 28 B</stop>
+      <stop>Lidah Wetan B</stop>
+      <stop>Lembah Harapan B</stop>
+      <stop>Villa Bukit Mas B</stop>
+      <stop>Babatan Indah B</stop>
+      <stop>Babatan A</stop>
+      <stop>Babatan Gang Musholla A</stop>
+      <stop>UNESA</stop>
+      <stop>Graha Family A</stop>
+      <stop>PTC A</stop>
+      <stop>PTC B</stop>
+      <stop>Graha Family B</stop>
+      <stop>Bundaran UNESA</stop>
+      <stop>Babatan Gang Musholla B</stop>
+      <stop>Babatan B</stop>
+      <stop>Griya Babatan Mukti B</stop>
+      <stop>Royal Residence B</stop>
+      <stop>Dukuh Karangan</stop>
+      <stop>Pondok Rosan B</stop>
+      <stop>Taman Mozaik B</stop>
+      <stop>Kecamatan Wiyung B</stop>
+      <stop>SWK Wiyung B</stop>
+      <stop>Keramat</stop>
+      <stop>Gemol B</stop>
+      <stop>Gogor B</stop>
+      <stop>Mastrip B</stop>
+      <stop>Jarsongo B</stop>
+      <stop>Jogoloyo B</stop>
+      <stop>Jembatan Rolak B</stop>
+      <stop>Pasar Ikan B</stop>
+      <stop>Gajah Mada B</stop>
+      <stop>Rusun Gunung Sari B</stop>
+      <stop>Taman Ronggolawe B</stop>
+      <stop>Waringin B</stop>
+      <stop>KBS</stop>
+      <stop>Marmoyo</stop>
+      <stop>Joyoboyo 2</stop>
+      <stop>RSI A. Yani</stop>
+    </route>
+    <route shortName="7" longName="Term. Bratang - Stasiun Psr. Turi" color="#4165ad" textColor="white">
+      <stop>Terminal Bratang</stop>
+      <stop>Ruko Barata Jaya</stop>
+      <stop>Pegadaian Bratang Binangun</stop>
+      <stop>Maybank Bratang Binangun</stop>
+      <stop>Ngagel Jaya Tengah A</stop>
+      <stop>Ngagel Jaya Utara A</stop>
+      <stop>Kalibokor Selatan A</stop>
+      <stop>Menur A</stop>
+      <stop>Manyar Airdas A</stop>
+      <stop>Manyar Dukuh A</stop>
+      <stop>Manyar Sabrangan</stop>
+      <stop>Kertajaya A</stop>
+      <stop>Kertajaya Masjid A</stop>
+      <stop>Bank BTPN Kertajaya A</stop>
+      <stop>Flores A</stop>
+      <stop>Sulawesi</stop>
+      <stop>Sumbawa</stop>
+      <stop>Raya Gubeng</stop>
+      <stop>Taman Lansia A</stop>
+      <stop>Ruko Gubeng A</stop>
+      <stop>Sumatera A</stop>
+      <stop>Monkasel</stop>
+      <stop>Pemuda</stop>
+      <stop>Yos Sudarso</stop>
+      <stop>Balai Kota B</stop>
+      <stop>Kantor Pemkot</stop>
+      <stop>Jaksa Agung Suprapto</stop>
+      <stop>Monumen Jenderal Sudirman</stop>
+      <stop>Taman Prestasi</stop>
+      <stop>Gondosuli</stop>
+      <stop>Kantor Dinas Pendidikan</stop>
+      <stop>Genteng Kali A</stop>
+      <stop>Cak Durasim A</stop>
+      <stop>MPP Siola A</stop>
+      <stop>Siola</stop>
+      <stop>Tunjungan</stop>
+      <stop>Embong Malang</stop>
+      <stop>Sindoro A</stop>
+      <stop>Blauran</stop>
+      <stop>Pirngadi A</stop>
+      <stop>SMKN 7</stop>
+      <stop>GRHA Bunda PAUD</stop>
+      <stop>Semarang</stop>
+      <stop>Stasiun Pasar Turi</stop>
+      <stop>Raden Saleh</stop>
+      <stop>SMPN 43</stop>
+      <stop>Koblen</stop>
+      <stop>Pirngadi</stop>
+      <stop>Museum Dr. Soetomo</stop>
+      <stop>Penghela</stop>
+      <stop>Monumen Resolusi Jihad</stop>
+      <stop>Alun-Alun Contong</stop>
+      <stop>Gemblongan</stop>
+      <stop>MPP Siola B</stop>
+      <stop>Cak Durasim B</stop>
+      <stop>Genteng Kali B</stop>
+      <stop>Ngemplak</stop>
+      <stop>Ketabang Ngemplak</stop>
+      <stop>Wuni</stop>
+      <stop>Balai Kota</stop>
+      <stop>Grand City</stop>
+      <stop>Sumatera B</stop>
+      <stop>Banda A</stop>
+      <stop>Stasiun Gubeng Baru</stop>
+      <stop>Banda B</stop>
+      <stop>Ruko Gubeng B</stop>
+      <stop>Taman Lansia B</stop>
+      <stop>Biliton 1</stop>
+      <stop>Biliton 2</stop>
+      <stop>Flores B</stop>
+      <stop>Bank BTPN Kertajaya B</stop>
+      <stop>Kertajaya Masjid B</stop>
+      <stop>Kertajaya B</stop>
+      <stop>Pasar Manyar</stop>
+      <stop>Manyar Dukuh B</stop>
+      <stop>Manyar Airdas B</stop>
+      <stop>Menur B</stop>
+      <stop>Kalibokor Selatan B</stop>
+      <stop>Ngagel Jaya Utara B</stop>
+      <stop>Ngagel Jaya Tengah B</stop>
+      <stop>UBAYA Ngagel A</stop>
+      <stop>Taman Flora B</stop>
+      <stop>Manyar</stop>
+    </route>
+    <route shortName="8" longName="TOW - UNESA" color="#3a4278" textColor="white">
+      <stop>T.O.W</stop>
+      <stop>SWK Romokalisari</stop>
+      <stop>Simpang Margomulyo B</stop>
+      <stop>PKB Tandes B</stop>
+      <stop>Margomulyo 2</stop>
+      <stop>Margomulyo Indah B</stop>
+      <stop>Sentong Asri B</stop>
+      <stop>Karangpoh A</stop>
+      <stop>Samsat Tandes 2</stop>
+      <stop>Tanjungsari A</stop>
+      <stop>Satelit Indah B</stop>
+      <stop>Darmo Permai III A</stop>
+      <stop>Jono Soewojo 1</stop>
+      <stop>PTC B</stop>
+      <stop>Graha Family B</stop>
+      <stop>Bundaran UNESA</stop>
+      <stop>UNESA</stop>
+      <stop>Graha Family A</stop>
+      <stop>PTC A</stop>
+      <stop>Jono Soewojo 2</stop>
+      <stop>Darmo Permai III B</stop>
+      <stop>Satelit Indah A</stop>
+      <stop>Tanjungsari B</stop>
+      <stop>Samsat Tandes 1</stop>
+      <stop>Karangpoh B</stop>
+      <stop>Sentong Asri A</stop>
+      <stop>Margomulyo Indah A</stop>
+      <stop>Margomulyo 1</stop>
+      <stop>PKB Tandes A</stop>
+      <stop>Simpang Margomulyo A</stop>
+    </route>
+    <route shortName="9" longName="Term. Menanggal-Term. Manukan" color="#836fff" textColor="white">
+      <stop>Terminal Menanggal</stop>
+      <stop>Simpang Menanggal</stop>
+      <stop>SWK Dukuh Menanggal</stop>
+      <stop>Dukuh Menanggal</stop>
+      <stop>Kantor Dinas Perhubungan Jawa Timur</stop>
+      <stop>GPT Kristus Menanggal</stop>
+      <stop>Kantor DPW PKB Jatim</stop>
+      <stop>Gayungsari Timur</stop>
+      <stop>Gayungsari Barat</stop>
+      <stop>SMPN 22</stop>
+      <stop>Masjid Al Akbar Surabaya</stop>
+      <stop>Pagesangan Indah A</stop>
+      <stop>Pasar Pagesangan A</stop>
+      <stop>Kebonsari Tengah A</stop>
+      <stop>SD Darul Ulum A</stop>
+      <stop>Jambangan Kebon Agung Asri A</stop>
+      <stop>Jambangan Indah A</stop>
+      <stop>Universitas Merdeka A</stop>
+      <stop>Puri Kencana A</stop>
+      <stop>SMP Baitussalam A</stop>
+      <stop>Sekolah Al Falah Ketintang A</stop>
+      <stop>SDN Ketintang 1 A</stop>
+      <stop>Ketintang Tengah A</stop>
+      <stop>Telkom University A</stop>
+      <stop>Jetis Kulon A</stop>
+      <stop>Ketintang</stop>
+      <stop>RSI A. Yani</stop>
+      <stop>Terminal Joyoboyo</stop>
+      <stop>KBS</stop>
+      <stop>Ciliwung A</stop>
+      <stop>Simpang Adityawarman A</stop>
+      <stop>KPU</stop>
+      <stop>Mayjend Sungkono</stop>
+      <stop>Darmo Park 2</stop>
+      <stop>Park and Ride Mayjend Sungkono B</stop>
+      <stop>Taman Makam Pahlawan 1</stop>
+      <stop>Putat Gede 1</stop>
+      <stop>Putat Gede 2</stop>
+      <stop>Darmo Permai Timur A</stop>
+      <stop>Simpang Darmo Baru Barat A</stop>
+      <stop>IKADO A</stop>
+      <stop>Sukomanunggal Jaya A</stop>
+      <stop>Kejaksaan Negeri Surabaya A</stop>
+      <stop>Satelit Indah A</stop>
+      <stop>Satelit Utara A</stop>
+      <stop>Darmo Indah Timur A</stop>
+      <stop>Kantor Imigrasi Tanjung Perak A</stop>
+      <stop>Karangpoh B</stop>
+      <stop>Terminal Balongsari</stop>
+      <stop>SMKN 13 A</stop>
+      <stop>SMPN 47 A</stop>
+      <stop>Terminal Manukan</stop>
+      <stop>SMPN 47 B</stop>
+      <stop>SMKN 13 B</stop>
+      <stop>Terminal Balongsari</stop>
+      <stop>Bibis B</stop>
+      <stop>Bibis A</stop>
+      <stop>Karangpoh A</stop>
+      <stop>Kantor Imigrasi Tanjung Perak B</stop>
+      <stop>Darmo Indah Timur B</stop>
+      <stop>Satelit Utara B</stop>
+      <stop>Satelit Indah B</stop>
+      <stop>Kejaksaan Negeri Surabaya B</stop>
+      <stop>Sukomanunggal Jaya B</stop>
+      <stop>IKADO B</stop>
+      <stop>Simpang Darmo Baru Barat B</stop>
+      <stop>Darmo Permai Timur B</stop>
+      <stop>Taman Makam Pahlawan 2</stop>
+      <stop>Park and Ride Mayjen Sungkono</stop>
+      <stop>Darmo Park 1</stop>
+      <stop>Gedung Juang 45</stop>
+      <stop>Simpang Adityawarman B</stop>
+      <stop>Ciliwung B</stop>
+      <stop>Marmoyo</stop>
+      <stop>Joyoboyo 2</stop>
+      <stop>SMPN 32</stop>
+      <stop>Jetis Kulon B</stop>
+      <stop>Ketintang Timur PTT</stop>
+      <stop>Telkom University B</stop>
+      <stop>Ketintang Tengah B</stop>
+      <stop>SDN Ketintang 1 B</stop>
+      <stop>Sekolah Al Falah Ketintang B</stop>
+      <stop>SMP Baitussalam B</stop>
+      <stop>Puri Kencana B</stop>
+      <stop>Universitas Merdeka B</stop>
+      <stop>Jambangan Indah B</stop>
+      <stop>Jambangan Kebon Agung Asri B</stop>
+      <stop>SD Darul Ulum B</stop>
+      <stop>Kebonsari Tengah B</stop>
+      <stop>Pasar Pagesangan B</stop>
+      <stop>Pagesangan Indah B</stop>
+      <stop>Pasar Rakyat Jambangan</stop>
+      <stop>SWK Gayungan</stop>
+      <stop>SDN Menanggal 601</stop>
+      <stop>SMAN 15</stop>
+    </route>
+    <route shortName="10" longName="Term. Keputih-Bunguran" color="#cfbd4f" textColor="white">
+      <stop>Terminal Keputih</stop>
+      <stop>Bumi Marina Emas A</stop>
+      <stop>Kantor LPMK Keputih A</stop>
+      <stop>Keputih Makam A</stop>
+      <stop>Universitas Hang Tuah</stop>
+      <stop>Vita School A</stop>
+      <stop>Unipra</stop>
+      <stop>UKDC</stop>
+      <stop>ITATS</stop>
+      <stop>ITATS 2</stop>
+      <stop>Narotama B</stop>
+      <stop>SMA Giki 3 A</stop>
+      <stop>Klampis Jaya A</stop>
+      <stop>Klampis</stop>
+      <stop>Manyar Tirtoyoso A</stop>
+      <stop>Manyar Kertoarjo A</stop>
+      <stop>Kalidami A</stop>
+      <stop>Karang Menjangan A</stop>
+      <stop>Politeknik Kesehatan A</stop>
+      <stop>RSUD Dr Soetomo 2</stop>
+      <stop>SMAN 4</stop>
+      <stop>Stasiun Gubeng Baru</stop>
+      <stop>Indrakila</stop>
+      <stop>Indrakila 2</stop>
+      <stop>Kalasan</stop>
+      <stop>Simpang Kalasan</stop>
+      <stop>Jolotundo</stop>
+      <stop>Mardi Putera A</stop>
+      <stop>SDN Pacar Kembang 1 A</stop>
+      <stop>Ploso</stop>
+      <stop>Karang Empat Besar A</stop>
+      <stop>Rangkah A</stop>
+      <stop>RSUD dr. Mohamad Soewandhi</stop>
+      <stop>GRHA Adyatma</stop>
+      <stop>Gembong Sawahan A</stop>
+      <stop>Polsek Simokerto A</stop>
+      <stop>ITC</stop>
+      <stop>Pasar Atom 1</stop>
+      <stop>Pasar Atom 2</stop>
+      <stop>Pasar Atom 1</stop>
+      <stop>ITC</stop>
+      <stop>Polsek Simokerto B</stop>
+      <stop>Gembong Sawahan B</stop>
+      <stop>GRHA Adyatma</stop>
+      <stop>RSUD dr. Mohamad Soewandhi</stop>
+      <stop>Rangkah B</stop>
+      <stop>Karang Empat Besar B</stop>
+      <stop>SWK Kapas Krampung</stop>
+      <stop>SDN Pacar Kembang 1 B</stop>
+      <stop>Mardi Putera B</stop>
+      <stop>Pasar Pacar Keling</stop>
+      <stop>Tambang Boyo</stop>
+      <stop>UNAIR Kampus A</stop>
+      <stop>Politeknik Kesehatan B</stop>
+      <stop>Karang Menjangan B</stop>
+      <stop>Kalidami B</stop>
+      <stop>Samsat Manyar</stop>
+      <stop>Manyar Kertoarjo B</stop>
+      <stop>Manyar Tirtoyoso B</stop>
+      <stop>Koni 2</stop>
+      <stop>Klampis Jaya B</stop>
+      <stop>SMA Giki 3 B</stop>
+      <stop>Narotama A</stop>
+      <stop>Puskesmas Klampis Ngasem</stop>
+      <stop>SMPN 19</stop>
+      <stop>KOPERTIS</stop>
+      <stop>Convention Hall ARH</stop>
+      <stop>Vita School B</stop>
+      <stop>Medical Center ITS</stop>
+      <stop>Keputih Makam B</stop>
+      <stop>Kantor LPMK Keputih B</stop>
+      <stop>Keputih Tegal Timur 1A</stop>
+      <stop>Keputih Tegal Timur 2A</stop>
+      <stop>Apartemen Dian Sukolilo Regency</stop>
+      <stop>Simpang Keputih Tegal Timur</stop>
+      <stop>Keputih Tegal Timur 2B</stop>
+      <stop>Keputih Tegal Timur 1B</stop>
+      <stop>Bumi Marina Emas B</stop>
+    </route>
+    <route shortName="11" longName="Terminal Bratang - Shelter Bulak" color="#db5b3b" textColor="white">
+      <stop>Terminal Bratang</stop>
+      <stop>Simpang Barata Jaya 1</stop>
+      <stop>Simpang Barata Jaya 2</stop>
+      <stop>Hotel Narita Barata Jaya</stop>
+      <stop>Nginden A</stop>
+      <stop>Nginden Kota A</stop>
+      <stop>Taman Flora A</stop>
+      <stop>Manyar 2A</stop>
+      <stop>Manyar Medical Centre A</stop>
+      <stop>STIESIA A</stop>
+      <stop>Manyar Indah A</stop>
+      <stop>Narotama A</stop>
+      <stop>Puskesmas Klampis Ngasem</stop>
+      <stop>SMPN 19</stop>
+      <stop>KOPERTIS</stop>
+      <stop>Convention Hall ARH</stop>
+      <stop>Apartemen Puncak Kertajaya A</stop>
+      <stop>ITS</stop>
+      <stop>Bundaran ITS</stop>
+      <stop>PENS 2</stop>
+      <stop>Wisma Permai A</stop>
+      <stop>Sutorejo Indah A</stop>
+      <stop>Mulyosari Mapan A</stop>
+      <stop>Universitas Widya Kartika A</stop>
+      <stop>KENJERAN PARK</stop>
+      <stop>Kantor Kelurahan Sukolilo Baru A</stop>
+      <stop>Sukolilo Lor</stop>
+      <stop>THP Kenjeran</stop>
+      <stop>THP Kenjeran Utara A</stop>
+      <stop>Kejawan Lor A</stop>
+      <stop>Pantai Batu Batu Kenjeran A</stop>
+      <stop>Shelter Bulak</stop>
+      <stop>Pantai Batu Batu Kenjeran B</stop>
+      <stop>Kejawan Lor B</stop>
+      <stop>THP Kenjeran Utara B</stop>
+      <stop>SD Muhammadiyah 9</stop>
+      <stop>KENJERAN PARK</stop>
+      <stop>Universitas Widya Kartika B</stop>
+      <stop>Mulyosari Mapan B</stop>
+      <stop>Sutorejo Indah B</stop>
+      <stop>Wisma Permai B</stop>
+      <stop>PENS 1 A</stop>
+      <stop>ITS</stop>
+      <stop>Apartemen Puncak Kertajaya B</stop>
+      <stop>Unipra</stop>
+      <stop>UKDC</stop>
+      <stop>ITATS</stop>
+      <stop>ITATS 2</stop>
+      <stop>Narotama B</stop>
+      <stop>Manyar Indah B</stop>
+      <stop>STIESIA B</stop>
+      <stop>Manyar Medical Centre B</stop>
+      <stop>Manyar 2B</stop>
+      <stop>Taman Flora B</stop>
+      <stop>Manyar</stop>
+    </route>
+    <route shortName="12" longName="Purabaya-ITS-Kenjeran Park" color="#664c9c" textColor="white">
+      <stop>Terminal Purabaya</stop>
+      <stop>UINSA 2A</stop>
+      <stop>Gunung Anyar Timur A</stop>
+      <stop>GUNUNG ANYAR LOR 1</stop>
+      <stop>RUNGKUT MADYA 1</stop>
+      <stop>Pandugo A (EKSISTING)</stop>
+      <stop>SKG MERR A</stop>
+      <stop>SEMOLO WARU 1</stop>
+      <stop>ITATS</stop>
+      <stop>SMPN 19</stop>
+      <stop>RS HAJI 1</stop>
+      <stop>Kertajaya Indah</stop>
+      <stop>Bundaran ITS</stop>
+      <stop>ITS</stop>
+      <stop>Manyar Kerta Adi</stop>
+      <stop>KONI MERR 3L</stop>
+      <stop>GALAXY 1</stop>
+      <stop>UNAIR 1</stop>
+      <stop>MULYO REJO 1</stop>
+      <stop>KALI JUDAN 1</stop>
+      <stop>RSIA 1</stop>
+      <stop>KENJERAN 1</stop>
+      <stop>KENJERAN PARK</stop>
+      <stop>SUPER INDO</stop>
+      <stop>RSIA 2</stop>
+      <stop>KALI JUDAN 2</stop>
+      <stop>MULYO REJO 2</stop>
+      <stop>UNAIR 2</stop>
+      <stop>GALAXY 2</stop>
+      <stop>Kertajaya Indah</stop>
+      <stop>Bundaran ITS</stop>
+      <stop>ITS</stop>
+      <stop>Manyar Kerta Adi</stop>
+      <stop>RS HAJI 2</stop>
+      <stop>KOPERTIS</stop>
+      <stop>UKDC</stop>
+      <stop>SEMOLO WARU 2</stop>
+      <stop>SKG MERR B</stop>
+      <stop>DINAMIKA</stop>
+      <stop>Pandugo B (EKSISTING)</stop>
+      <stop>RSUD Surabaya Timur</stop>
+      <stop>PENJARINGAN ASRI</stop>
+      <stop>RUNGKUT MADYA 2</stop>
+      <stop>GUNUNG ANYAR LOR 2</stop>
+      <stop>Gunung Anyar Timur B</stop>
+      <stop>UINSA 2B</stop>
+    </route>
+    <route shortName="SBT" longName="Bus Tumpuk" color="#febf2c" textColor="white"/>
+  </routes>
+  <stops>
+    <stop name="RUNGKUT MADYA 1">
+      <route>12</route>
+    </stop>
+    <stop name="UNAIR 2">
+      <route>R4</route>
+      <route>12</route>
+    </stop>
+    <stop name="SKG MERR A">
+      <route>3</route>
+      <route>12</route>
+    </stop>
+    <stop name="KENJERAN PARK">
+      <route>11</route>
+      <route>12</route>
+    </stop>
+    <stop name="Gunung Anyar Timur A">
+      <route>3</route>
+      <route>12</route>
+    </stop>
+    <stop name="Gunung Anyar Timur B">
+      <route>3</route>
+      <route>12</route>
+    </stop>
+    <stop name="Pandugo A (EKSISTING)">
+      <route>3</route>
+      <route>12</route>
+    </stop>
+    <stop name="GUNUNG ANYAR LOR 2">
+      <route>12</route>
+    </stop>
+    <stop name="RUNGKUT MADYA 2">
+      <route>12</route>
+    </stop>
+    <stop name="UKDC">
+      <route>10</route>
+      <route>11</route>
+      <route>12</route>
+    </stop>
+    <stop name="SEMOLO WARU 1">
+      <route>12</route>
+    </stop>
+    <stop name="PENJARINGAN ASRI">
+      <route>12</route>
+    </stop>
+    <stop name="Kertajaya Indah">
+      <route>R2</route>
+      <route>R4</route>
+      <route>12</route>
+    </stop>
+    <stop name="SEMOLO WARU 2">
+      <route>12</route>
+    </stop>
+    <stop name="SKG MERR B">
+      <route>3</route>
+      <route>12</route>
+    </stop>
+    <stop name="ITATS">
+      <route>10</route>
+      <route>11</route>
+      <route>12</route>
+    </stop>
+    <stop name="KOPERTIS">
+      <route>10</route>
+      <route>11</route>
+      <route>12</route>
+    </stop>
+    <stop name="GUNUNG ANYAR LOR 1">
+      <route>12</route>
+    </stop>
+    <stop name="KONI MERR 3L">
+      <route>R4</route>
+      <route>12</route>
+    </stop>
+    <stop name="KALI JUDAN 2">
+      <route>12</route>
+    </stop>
+    <stop name="KENJERAN 1">
+      <route>12</route>
+    </stop>
+    <stop name="MULYO REJO 2">
+      <route>12</route>
+    </stop>
+    <stop name="UNAIR 1">
+      <route>R4</route>
+      <route>12</route>
+    </stop>
+    <stop name="ITS">
+      <route>R2</route>
+      <route>R4</route>
+      <route>11</route>
+      <route>12</route>
+    </stop>
+    <stop name="Manyar Kerta Adi">
+      <route>R2</route>
+      <route>R4</route>
+      <route>12</route>
+    </stop>
+    <stop name="RSIA 2">
+      <route>12</route>
+    </stop>
+    <stop name="SUPER INDO">
+      <route>12</route>
+    </stop>
+    <stop name="RS HAJI 1">
+      <route>12</route>
+    </stop>
+    <stop name="SMPN 19">
+      <route>10</route>
+      <route>11</route>
+      <route>12</route>
+    </stop>
+    <stop name="MULYO REJO 1">
+      <route>12</route>
+    </stop>
+    <stop name="DINAMIKA">
+      <route>12</route>
+    </stop>
+    <stop name="RS HAJI 2">
+      <route>12</route>
+    </stop>
+    <stop name="RSIA 1">
+      <route>12</route>
+    </stop>
+    <stop name="KALI JUDAN 1">
+      <route>12</route>
+    </stop>
+    <stop name="GALAXY 1">
+      <route>R4</route>
+      <route>12</route>
+    </stop>
+    <stop name="GALAXY 2">
+      <route>R4</route>
+      <route>12</route>
+    </stop>
+    <stop name="Pandugo B (EKSISTING)">
+      <route>3</route>
+      <route>12</route>
+    </stop>
+    <stop name="Embong Malang">
+      <route>R1</route>
+      <route>R2</route>
+      <route>R5</route>
+      <route>7</route>
+    </stop>
+    <stop name="Siola">
+      <route>R1</route>
+      <route>R2</route>
+      <route>R5</route>
+      <route>7</route>
+    </stop>
+    <stop name="Tunjungan">
+      <route>R1</route>
+      <route>R2</route>
+      <route>R5</route>
+      <route>7</route>
+    </stop>
+    <stop name="Samsat Tandes 1">
+      <route>R5</route>
+      <route>8</route>
+    </stop>
+    <stop name="Samsat Tandes 2">
+      <route>R5</route>
+      <route>8</route>
+    </stop>
+    <stop name="Terminal Benowo">
+      <route>R5</route>
+    </stop>
+    <stop name="Singgapur A">
+      <route>R5</route>
+    </stop>
+    <stop name="Singgapur B">
+      <route>R5</route>
+    </stop>
+    <stop name="Banyu Urip B">
+      <route>R5</route>
+    </stop>
+    <stop name="Stasiun Benowo A">
+      <route>R5</route>
+    </stop>
+    <stop name="Kantor Kecamatan Pakal A">
+      <route>R5</route>
+    </stop>
+    <stop name="Simo Kalangan B">
+      <route>R5</route>
+    </stop>
+    <stop name="Polsek Benowo A">
+      <route>R5</route>
+    </stop>
+    <stop name="Kantor Kelurahan Kandangan A">
+      <route>R5</route>
+    </stop>
+    <stop name="Manukan Kulon A">
+      <route>R5</route>
+    </stop>
+    <stop name="Bibis A">
+      <route>R5</route>
+      <route>9</route>
+    </stop>
+    <stop name="Tanjungsari A">
+      <route>R5</route>
+      <route>8</route>
+    </stop>
+    <stop name="Simojawar A">
+      <route>R5</route>
+    </stop>
+    <stop name="Simo Katrungan Kidul A">
+      <route>R5</route>
+    </stop>
+    <stop name="Butulan A">
+      <route>R5</route>
+    </stop>
+    <stop name="Kupang Krajan A">
+      <route>R5</route>
+    </stop>
+    <stop name="Pasar Kembang A">
+      <route>R5</route>
+    </stop>
+    <stop name="Wonorejo A">
+      <route>R5</route>
+    </stop>
+    <stop name="Kedung Doro A">
+      <route>R5</route>
+    </stop>
+    <stop name="Sindoro A">
+      <route>R2</route>
+      <route>R5</route>
+      <route>7</route>
+    </stop>
+    <stop name="Simo Kalangan A">
+      <route>R5</route>
+    </stop>
+    <stop name="Banyu Urip A">
+      <route>R5</route>
+    </stop>
+    <stop name="SMPN 3 ">
+      <route>R2</route>
+      <route>R5</route>
+    </stop>
+    <stop name="Embong Malang 2">
+      <route>R5</route>
+    </stop>
+    <stop name="Kedung Doro B">
+      <route>R5</route>
+    </stop>
+    <stop name="Wonorejo B">
+      <route>R5</route>
+    </stop>
+    <stop name="Pasar Kembang B">
+      <route>R5</route>
+    </stop>
+    <stop name="Kupang Krajan B">
+      <route>R5</route>
+    </stop>
+    <stop name="Butulan B">
+      <route>R5</route>
+    </stop>
+    <stop name="Simo Katrungan Kidul B">
+      <route>R5</route>
+    </stop>
+    <stop name="Simo Jawar 1 B">
+      <route>R5</route>
+    </stop>
+    <stop name="Tanjungsari B">
+      <route>R5</route>
+      <route>8</route>
+    </stop>
+    <stop name="Bibis B">
+      <route>R5</route>
+      <route>9</route>
+    </stop>
+    <stop name="Manukan Kulon B">
+      <route>R5</route>
+    </stop>
+    <stop name="Kantor Kelurahan Kandangan B">
+      <route>R5</route>
+    </stop>
+    <stop name="Polsek Benowo B">
+      <route>R5</route>
+    </stop>
+    <stop name="Kantor Kecamatan Pakal B">
+      <route>R5</route>
+    </stop>
+    <stop name="Stasiun Benowo B">
+      <route>R5</route>
+    </stop>
+    <stop name="Raya Sumberejo A">
+      <route>R5</route>
+    </stop>
+    <stop name="Raya Sumberejo B"/>
+    <stop name="Sumberejo Makmur 1A">
+      <route>R5</route>
+    </stop>
+    <stop name="Sumberejo Makmur 1B">
+      <route>R5</route>
+    </stop>
+    <stop name="Sumberejo Makmur 2A">
+      <route>R5</route>
+    </stop>
+    <stop name="Sumberejo Makmur 2B">
+      <route>R5</route>
+    </stop>
+    <stop name="Puskesmas Sumberejo A">
+      <route>R5</route>
+    </stop>
+    <stop name="Puskesmas Sumberejo B">
+      <route>R5</route>
+    </stop>
+    <stop name="Griya Surabaya Asri">
+      <route>R5</route>
+    </stop>
+    <stop name="Karangpoh B">
+      <route>R5</route>
+      <route>8</route>
+      <route>9</route>
+    </stop>
+    <stop name="Karangpoh A">
+      <route>R5</route>
+      <route>8</route>
+      <route>9</route>
+    </stop>
+    <stop name="Kantor Kelurahan Banjar Sugihan A">
+      <route>R5</route>
+    </stop>
+    <stop name="Kantor Kelurahan Banjar Sugihan B">
+      <route>R5</route>
+    </stop>
+    <stop name="Universitas Wijaya Putra A">
+      <route>R5</route>
+    </stop>
+    <stop name="Universitas Wijaya Putra B">
+      <route>R5</route>
+    </stop>
+    <stop name="Terminal Purabaya">
+      <route>R1</route>
+      <route>R4</route>
+      <route>12</route>
+    </stop>
+    <stop name="Dukuh Menanggal">
+      <route>R1</route>
+      <route>R4</route>
+      <route>9</route>
+    </stop>
+    <stop name="Siwalankerto A">
+      <route>R1</route>
+      <route>R4</route>
+    </stop>
+    <stop name="Taman Pelangi">
+      <route>R1</route>
+      <route>R4</route>
+    </stop>
+    <stop name="RS Bhayangkara">
+      <route>R1</route>
+    </stop>
+    <stop name="UBHARA">
+      <route>R1</route>
+    </stop>
+    <stop name="PUSVETMA">
+      <route>R1</route>
+    </stop>
+    <stop name="Ketintang">
+      <route>R1</route>
+      <route>4</route>
+      <route>9</route>
+    </stop>
+    <stop name="Terminal Joyoboyo">
+      <route>R1</route>
+      <route>3</route>
+      <route>4</route>
+      <route>6</route>
+      <route>9</route>
+    </stop>
+    <stop name="Museum BI">
+      <route>R1</route>
+    </stop>
+    <stop name="Rumah Sakit Darmo">
+      <route>R1</route>
+      <route>R2</route>
+    </stop>
+    <stop name="Gozco">
+      <route>R1</route>
+      <route>R2</route>
+    </stop>
+    <stop name="Pandegiling">
+      <route>R1</route>
+      <route>R2</route>
+      <route>2</route>
+    </stop>
+    <stop name="Urip Sumoharjo 1">
+      <route>R1</route>
+      <route>2</route>
+    </stop>
+    <stop name="Basra">
+      <route>R1</route>
+      <route>R2</route>
+      <route>2</route>
+    </stop>
+    <stop name="Kaliasin">
+      <route>R1</route>
+      <route>R2</route>
+      <route>R5</route>
+    </stop>
+    <stop name="Blauran">
+      <route>R1</route>
+      <route>7</route>
+    </stop>
+    <stop name="Pirngadi">
+      <route>R1</route>
+      <route>7</route>
+    </stop>
+    <stop name="Pasar Turi">
+      <route>R1</route>
+    </stop>
+    <stop name="Masjid Kemayoran">
+      <route>R1</route>
+    </stop>
+    <stop name="Indrapura">
+      <route>R1</route>
+    </stop>
+    <stop name="Ikan Kerapu A">
+      <route>R1</route>
+    </stop>
+    <stop name="Tanjung Torawitan A">
+      <route>R1</route>
+    </stop>
+    <stop name="Barunawati A">
+      <route>R1</route>
+    </stop>
+    <stop name="Pelindo Place A">
+      <route>R1</route>
+    </stop>
+    <stop name="Pelabuhan Tanjung Perak">
+      <route>R1</route>
+    </stop>
+    <stop name="Pelindo Place B">
+      <route>R1</route>
+    </stop>
+    <stop name="Barunawati B">
+      <route>R1</route>
+    </stop>
+    <stop name="Tanjung Torawitan B">
+      <route>R1</route>
+    </stop>
+    <stop name="Ikan Kerapu B">
+      <route>R1</route>
+    </stop>
+    <stop name="Rajawali">
+      <route>R1</route>
+    </stop>
+    <stop name="Jembatan Merah">
+      <route>R1</route>
+    </stop>
+    <stop name="Veteran">
+      <route>R1</route>
+      <route>4</route>
+    </stop>
+    <stop name="Tugu Pahlawan">
+      <route>R1</route>
+    </stop>
+    <stop name="Alun-Alun Contong">
+      <route>R1</route>
+      <route>7</route>
+    </stop>
+    <stop name="Simpang Dukuh">
+      <route>R1</route>
+      <route>R2</route>
+      <route>R5</route>
+    </stop>
+    <stop name="Gubernur Suryo">
+      <route>R1</route>
+      <route>R2</route>
+      <route>R5</route>
+      <route>2</route>
+    </stop>
+    <stop name="Pangsud">
+      <route>R1</route>
+      <route>R2</route>
+      <route>R5</route>
+      <route>2</route>
+    </stop>
+    <stop name="Sono Kembang">
+      <route>R1</route>
+      <route>R2</route>
+      <route>R5</route>
+      <route>2</route>
+    </stop>
+    <stop name="Urip Sumoharjo 2">
+      <route>R1</route>
+      <route>R2</route>
+      <route>2</route>
+    </stop>
+    <stop name="Pandegiling 2">
+      <route>R1</route>
+      <route>R2</route>
+      <route>2</route>
+    </stop>
+    <stop name="Santa Maria">
+      <route>R1</route>
+      <route>R2</route>
+    </stop>
+    <stop name="Darmo">
+      <route>R1</route>
+    </stop>
+    <stop name="Marmoyo">
+      <route>R1</route>
+      <route>3</route>
+      <route>4</route>
+      <route>6</route>
+      <route>9</route>
+    </stop>
+    <stop name="Joyoboyo 2">
+      <route>R1</route>
+      <route>3</route>
+      <route>4</route>
+      <route>6</route>
+      <route>9</route>
+    </stop>
+    <stop name="RSAL">
+      <route>R1</route>
+      <route>4</route>
+    </stop>
+    <stop name="Margorejo">
+      <route>R1</route>
+      <route>4</route>
+    </stop>
+    <stop name="Wonocolo">
+      <route>R1</route>
+    </stop>
+    <stop name="UIN">
+      <route>R1</route>
+    </stop>
+    <stop name="Jemur Ngawinan">
+      <route>R1</route>
+      <route>R4</route>
+    </stop>
+    <stop name="Siwalankerto B">
+      <route>R1</route>
+      <route>R4</route>
+    </stop>
+    <stop name="Kerto Menanggal">
+      <route>R1</route>
+      <route>R4</route>
+    </stop>
+    <stop name="Sutorejo Barat">
+      <route>R4</route>
+    </stop>
+    <stop name="Dharmahusada Regency">
+      <route>R4</route>
+    </stop>
+    <stop name="UNAIR Kampus C">
+      <route>R4</route>
+    </stop>
+    <stop name="UNAIR A"/>
+    <stop name="Jemursari A">
+      <route>R4</route>
+    </stop>
+    <stop name="Airlangga Convention Center">
+      <route>R4</route>
+    </stop>
+    <stop name="SMA Hidayatul Ummah">
+      <route>R4</route>
+    </stop>
+    <stop name="RSI Jemursari A">
+      <route>R4</route>
+    </stop>
+    <stop name="Kalijudan Indah B">
+      <route>R4</route>
+    </stop>
+    <stop name="Kantor Pertamina A">
+      <route>R4</route>
+      <route>4</route>
+    </stop>
+    <stop name="Kantor Dinas Kesehatan A">
+      <route>R4</route>
+      <route>4</route>
+    </stop>
+    <stop name="Simpang Dharmahusada Utara B">
+      <route>R4</route>
+    </stop>
+    <stop name="Prapen Indah Timur A">
+      <route>R4</route>
+    </stop>
+    <stop name="SWK Dharmahusada A">
+      <route>R4</route>
+    </stop>
+    <stop name="Sidosermo Indah">
+      <route>R4</route>
+    </stop>
+    <stop name="SMKN 5 B">
+      <route>R4</route>
+    </stop>
+    <stop name="Nginden A">
+      <route>R4</route>
+      <route>11</route>
+    </stop>
+    <stop name="Mojo Kidul B">
+      <route>R4</route>
+    </stop>
+    <stop name="Terminal Bratang">
+      <route>R4</route>
+      <route>3</route>
+      <route>7</route>
+      <route>11</route>
+    </stop>
+    <stop name="Kedung Tarukan B">
+      <route>R4</route>
+    </stop>
+    <stop name="Taman Flora A">
+      <route>R4</route>
+      <route>11</route>
+    </stop>
+    <stop name="UBAYA Ngagel B">
+      <route>R4</route>
+    </stop>
+    <stop name="RSUD Dr Soetomo 2">
+      <route>R4</route>
+      <route>10</route>
+    </stop>
+    <stop name="RSUD Dr Soetomo">
+      <route>R2</route>
+      <route>R4</route>
+    </stop>
+    <stop name="Krukah Timur">
+      <route>R4</route>
+      <route>3</route>
+    </stop>
+    <stop name="Ngagel Jaya A">
+      <route>R4</route>
+    </stop>
+    <stop name="UNAIR Kampus B">
+      <route>R2</route>
+      <route>R4</route>
+    </stop>
+    <stop name="Puskesmas Pucang Sewu A">
+      <route>R4</route>
+    </stop>
+    <stop name="Gubeng Kertajaya B">
+      <route>R4</route>
+    </stop>
+    <stop name="Gedung Pamulangan A">
+      <route>R4</route>
+    </stop>
+    <stop name="Gedung Pamulangan B">
+      <route>R4</route>
+    </stop>
+    <stop name="Gubeng Kertajaya A">
+      <route>R4</route>
+    </stop>
+    <stop name="Puskesmas Pucang Sewu B">
+      <route>R4</route>
+    </stop>
+    <stop name="Ngagel Jaya B">
+      <route>R4</route>
+    </stop>
+    <stop name="Gubeng Airlangga">
+      <route>R2</route>
+      <route>R4</route>
+    </stop>
+    <stop name="Bilka">
+      <route>R4</route>
+      <route>3</route>
+    </stop>
+    <stop name="Lapangan Hockey">
+      <route>R2</route>
+      <route>R4</route>
+    </stop>
+    <stop name="UBAYA Ngagel A">
+      <route>R4</route>
+      <route>3</route>
+      <route>7</route>
+    </stop>
+    <stop name="UNAIR Kampus A">
+      <route>R4</route>
+      <route>10</route>
+    </stop>
+    <stop name="Kedung Tarukan A">
+      <route>R4</route>
+    </stop>
+    <stop name="Taman Flora B">
+      <route>R4</route>
+      <route>3</route>
+      <route>7</route>
+      <route>11</route>
+    </stop>
+    <stop name="Mojo Kidul A">
+      <route>R4</route>
+    </stop>
+    <stop name="Manyar">
+      <route>R4</route>
+      <route>3</route>
+      <route>7</route>
+      <route>11</route>
+    </stop>
+    <stop name="SMKN 5 A">
+      <route>R4</route>
+    </stop>
+    <stop name="Nginden B">
+      <route>R4</route>
+    </stop>
+    <stop name="Simpang Dharmahusada Utara A">
+      <route>R4</route>
+    </stop>
+    <stop name="SMAN 16">
+      <route>R4</route>
+    </stop>
+    <stop name="Kalikepiting">
+      <route>R4</route>
+    </stop>
+    <stop name="Prapen Indah Timur B">
+      <route>R4</route>
+    </stop>
+    <stop name="Kalijudan Indah A">
+      <route>R4</route>
+    </stop>
+    <stop name="Kantor Dinas Kesehatan B">
+      <route>R4</route>
+      <route>4</route>
+    </stop>
+    <stop name="SMP Hidayatul Ummah">
+      <route>R4</route>
+    </stop>
+    <stop name="Kantor Pertamina B">
+      <route>R4</route>
+      <route>4</route>
+    </stop>
+    <stop name="RSI Jemursari B">
+      <route>R4</route>
+    </stop>
+    <stop name="Mulyorejo B">
+      <route>R4</route>
+    </stop>
+    <stop name="Jemursari B">
+      <route>R4</route>
+    </stop>
+    <stop name="UNAIR B"/>
+    <stop name="RS UNAIR">
+      <route>R4</route>
+    </stop>
+    <stop name="Park and Ride Mayjen Sungkono">
+      <route>R2</route>
+      <route>2</route>
+      <route>5</route>
+      <route>9</route>
+    </stop>
+    <stop name="Darmo Park 1">
+      <route>R2</route>
+      <route>2</route>
+      <route>5</route>
+      <route>9</route>
+    </stop>
+    <stop name="Balai Kota A"/>
+    <stop name="Slamet"/>
+    <stop name="Pemuda">
+      <route>R2</route>
+      <route>2</route>
+      <route>7</route>
+    </stop>
+    <stop name="Darmo Park 2">
+      <route>R2</route>
+      <route>2</route>
+      <route>5</route>
+      <route>9</route>
+    </stop>
+    <stop name="Bintang Diponggo A">
+      <route>2</route>
+    </stop>
+    <stop name="SMP Gema 45 A">
+      <route>2</route>
+    </stop>
+    <stop name="Pakis Tirtosari A">
+      <route>2</route>
+    </stop>
+    <stop name="Wonokitri Besar A">
+      <route>2</route>
+    </stop>
+    <stop name="Pakis Gunung A">
+      <route>2</route>
+    </stop>
+    <stop name="Pasar Pakis A">
+      <route>2</route>
+    </stop>
+    <stop name="Prapanca A">
+      <route>2</route>
+    </stop>
+    <stop name="Amir Hamzah A">
+      <route>2</route>
+    </stop>
+    <stop name="Khairil Anwar">
+      <route>2</route>
+    </stop>
+    <stop name="Bank Danamon Diponegoro">
+      <route>2</route>
+    </stop>
+    <stop name="WR Supratman A">
+      <route>2</route>
+    </stop>
+    <stop name="Imam Bonjol">
+      <route>2</route>
+    </stop>
+    <stop name="Teuku Umar A">
+      <route>2</route>
+    </stop>
+    <stop name="Sawunggaling A">
+      <route>2</route>
+    </stop>
+    <stop name="Basra 2">
+      <route>R5</route>
+      <route>2</route>
+    </stop>
+    <stop name="Embong Wungu">
+      <route>2</route>
+    </stop>
+    <stop name="Sonokembang 2"/>
+    <stop name="Embong Kemiri">
+      <route>2</route>
+    </stop>
+    <stop name="Kartini">
+      <route>2</route>
+    </stop>
+    <stop name="Teuku Umar B">
+      <route>2</route>
+    </stop>
+    <stop name="SDN Kristen Petra">
+      <route>2</route>
+    </stop>
+    <stop name="WR Supratman B">
+      <route>2</route>
+    </stop>
+    <stop name="Anwari">
+      <route>2</route>
+    </stop>
+    <stop name="Kupang Segunting">
+      <route>2</route>
+    </stop>
+    <stop name="Simpang Kartini">
+      <route>2</route>
+    </stop>
+    <stop name="Ronggowarsito">
+      <route>2</route>
+    </stop>
+    <stop name="Banyu Urip Wetan">
+      <route>2</route>
+    </stop>
+    <stop name="Kembang Kuning">
+      <route>2</route>
+    </stop>
+    <stop name="Masjid Rahmat">
+      <route>2</route>
+    </stop>
+    <stop name="Amir Hamzah B">
+      <route>2</route>
+    </stop>
+    <stop name="Prapanca B">
+      <route>2</route>
+    </stop>
+    <stop name="Pasar Pakis B">
+      <route>2</route>
+    </stop>
+    <stop name="Pakis Gunung B">
+      <route>2</route>
+    </stop>
+    <stop name="Wonokitri Besar B">
+      <route>2</route>
+    </stop>
+    <stop name="Pakis Tirtosari B">
+      <route>2</route>
+    </stop>
+    <stop name="SMP Gema 45 B">
+      <route>2</route>
+    </stop>
+    <stop name="Bintang Diponggo B">
+      <route>2</route>
+      <route>5</route>
+    </stop>
+    <stop name="Taman Apsari">
+      <route>2</route>
+    </stop>
+    <stop name="PMI">
+      <route>2</route>
+    </stop>
+    <stop name="Kayoon 1A">
+      <route>2</route>
+    </stop>
+    <stop name="Kayoon 2A">
+      <route>2</route>
+    </stop>
+    <stop name="Yos Sudarso">
+      <route>2</route>
+      <route>7</route>
+    </stop>
+    <stop name="Kayoon 2B">
+      <route>2</route>
+    </stop>
+    <stop name="Kayoon 1B">
+      <route>2</route>
+    </stop>
+    <stop name="Monkasel">
+      <route>2</route>
+      <route>7</route>
+    </stop>
+    <stop name="Bambu Runcing">
+      <route>2</route>
+    </stop>
+    <stop name="PTC A">
+      <route>R2</route>
+      <route>5</route>
+      <route>6</route>
+      <route>8</route>
+    </stop>
+    <stop name="Graha Family B">
+      <route>R2</route>
+      <route>5</route>
+      <route>6</route>
+      <route>8</route>
+    </stop>
+    <stop name="Graha Family A">
+      <route>R2</route>
+      <route>5</route>
+      <route>6</route>
+      <route>8</route>
+    </stop>
+    <stop name="PTC B">
+      <route>R2</route>
+      <route>5</route>
+      <route>6</route>
+      <route>8</route>
+    </stop>
+    <stop name="Pasar Modern Citraland A">
+      <route>5</route>
+    </stop>
+    <stop name="Pasar Modern Darmo Permai A">
+      <route>5</route>
+    </stop>
+    <stop name="Pasar Modern Darmo Permai B">
+      <route>5</route>
+    </stop>
+    <stop name="Ruko Darmo Permai A">
+      <route>5</route>
+    </stop>
+    <stop name="Ruko Darmo Permai B">
+      <route>5</route>
+    </stop>
+    <stop name="Taman Puspa Raya A"/>
+    <stop name="Kalijaran A">
+      <route>5</route>
+    </stop>
+    <stop name="Sentra Taman Gapura A">
+      <route>5</route>
+    </stop>
+    <stop name="Patung Kubus A">
+      <route>5</route>
+    </stop>
+    <stop name="Telaga Utama 1A">
+      <route>5</route>
+    </stop>
+    <stop name="Telaga Utama 2A">
+      <route>5</route>
+    </stop>
+    <stop name="Sekolah Ciputra A">
+      <route>5</route>
+    </stop>
+    <stop name="Niaga Gapura A">
+      <route>5</route>
+    </stop>
+    <stop name="Widya Kencana A">
+      <route>5</route>
+    </stop>
+    <stop name="G WAlk A">
+      <route>5</route>
+    </stop>
+    <stop name="Patung Burung A">
+      <route>5</route>
+    </stop>
+    <stop name="Lontar 1 A">
+      <route>5</route>
+    </stop>
+    <stop name="Lontar 2 A">
+      <route>5</route>
+    </stop>
+    <stop name="Molin A">
+      <route>5</route>
+    </stop>
+    <stop name="RSIA Lontar A">
+      <route>5</route>
+    </stop>
+    <stop name="Pakuwon Indah A">
+      <route>5</route>
+    </stop>
+    <stop name="Pradah Indah A">
+      <route>5</route>
+    </stop>
+    <stop name="Bulu Jaya A">
+      <route>5</route>
+    </stop>
+    <stop name="Dukuh Bulu A">
+      <route>5</route>
+    </stop>
+    <stop name="Simpang Darmo Permai Selatan A">
+      <route>5</route>
+    </stop>
+    <stop name="Darmo Permai Utara A">
+      <route>5</route>
+    </stop>
+    <stop name="Polsekta Tandes A">
+      <route>5</route>
+    </stop>
+    <stop name="Puncak Permai Utara A">
+      <route>5</route>
+    </stop>
+    <stop name="Puncak Permai I A">
+      <route>5</route>
+    </stop>
+    <stop name="Darmo Permai III A">
+      <route>5</route>
+      <route>8</route>
+    </stop>
+    <stop name="Darmo Permai III B">
+      <route>5</route>
+      <route>8</route>
+    </stop>
+    <stop name="Puncak Permai I B">
+      <route>5</route>
+    </stop>
+    <stop name="Puncak Permai Utara B">
+      <route>5</route>
+    </stop>
+    <stop name="Polsekta Tandes B">
+      <route>5</route>
+    </stop>
+    <stop name="Darmo Permai Utara B">
+      <route>5</route>
+    </stop>
+    <stop name="Simpang Darmo Permai Selatan B">
+      <route>5</route>
+    </stop>
+    <stop name="Dukuh Bulu B">
+      <route>5</route>
+    </stop>
+    <stop name="Bulu Jaya B">
+      <route>5</route>
+    </stop>
+    <stop name="Pradah Indah B">
+      <route>5</route>
+    </stop>
+    <stop name="Pakuwon Indah B">
+      <route>5</route>
+    </stop>
+    <stop name="RSIA Lontar B">
+      <route>5</route>
+    </stop>
+    <stop name="Molin B">
+      <route>5</route>
+    </stop>
+    <stop name="Lontar 2 B">
+      <route>5</route>
+    </stop>
+    <stop name="Lontar 1 B">
+      <route>5</route>
+    </stop>
+    <stop name="Patung Burung B">
+      <route>5</route>
+    </stop>
+    <stop name="G Walk B">
+      <route>5</route>
+    </stop>
+    <stop name="Widya Kencana B">
+      <route>5</route>
+    </stop>
+    <stop name="Niaga Gapura B">
+      <route>5</route>
+    </stop>
+    <stop name="Sekolah Ciputra B">
+      <route>5</route>
+    </stop>
+    <stop name="Kalijaran B">
+      <route>5</route>
+    </stop>
+    <stop name="Telaga Utama 2B">
+      <route>5</route>
+    </stop>
+    <stop name="Telaga Utama 1B">
+      <route>5</route>
+    </stop>
+    <stop name="Taman Puspa Raya B">
+      <route>5</route>
+    </stop>
+    <stop name="Patung Kubus B">
+      <route>5</route>
+    </stop>
+    <stop name="Sentra Taman Gapura B">
+      <route>5</route>
+    </stop>
+    <stop name=" Haltte G-Walk 2 A">
+      <route>5</route>
+    </stop>
+    <stop name=" G-Walk 2 B">
+      <route>5</route>
+    </stop>
+    <stop name="Bundaran G-Walk A">
+      <route>5</route>
+    </stop>
+    <stop name="Bundaran G-Walk B">
+      <route>5</route>
+    </stop>
+    <stop name="IKADO A">
+      <route>5</route>
+      <route>9</route>
+    </stop>
+    <stop name="IKADO B">
+      <route>5</route>
+      <route>9</route>
+    </stop>
+    <stop name="Sekolah Kristen Kalam Kudus A">
+      <route>5</route>
+    </stop>
+    <stop name="Simo Hilir A">
+      <route>5</route>
+    </stop>
+    <stop name="Kupang Jaya A">
+      <route>5</route>
+    </stop>
+    <stop name="Dukuh Kupang Barat A">
+      <route>5</route>
+    </stop>
+    <stop name="Dharma Mulya A">
+      <route>5</route>
+    </stop>
+    <stop name="Dukuh Kupang Barat 2A">
+      <route>5</route>
+    </stop>
+    <stop name="Terminal Dukuh Kupang">
+      <route>5</route>
+    </stop>
+    <stop name="Puskesmas Dukuh Kupang A">
+      <route>5</route>
+    </stop>
+    <stop name="Dukuh Kupang A">
+      <route>5</route>
+    </stop>
+    <stop name="Islamic Center A">
+      <route>5</route>
+    </stop>
+    <stop name="Islamic Center B">
+      <route>5</route>
+    </stop>
+    <stop name="Dukuh Kupang B">
+      <route>5</route>
+    </stop>
+    <stop name="Puskesmas Dukuh Kupang B">
+      <route>5</route>
+    </stop>
+    <stop name="Dukuh Kupang Barat 2B">
+      <route>5</route>
+    </stop>
+    <stop name="Dharma Mulya B">
+      <route>5</route>
+    </stop>
+    <stop name="Dukuh Kupang Barat B">
+      <route>5</route>
+    </stop>
+    <stop name="Kupang Jaya B">
+      <route>5</route>
+    </stop>
+    <stop name="Simo Hilir B">
+      <route>5</route>
+    </stop>
+    <stop name="Made A">
+      <route>5</route>
+    </stop>
+    <stop name="Sekolah Kristen Kalam Kudus B">
+      <route>5</route>
+    </stop>
+    <stop name="Universitas Ciputra">
+      <route>5</route>
+    </stop>
+    <stop name="UC Loop">
+      <route>5</route>
+    </stop>
+    <stop name="Made B">
+      <route>5</route>
+    </stop>
+    <stop name="Bukit Golf A">
+      <route>5</route>
+    </stop>
+    <stop name="Ciputra Hospital A">
+      <route>5</route>
+    </stop>
+    <stop name="Ciputra Hospital B">
+      <route>5</route>
+    </stop>
+    <stop name="Bukit Golf B">
+      <route>5</route>
+    </stop>
+    <stop name="Bundaran UNESA">
+      <route>R2</route>
+      <route>6</route>
+      <route>8</route>
+    </stop>
+    <stop name="PENS 2">
+      <route>R2</route>
+      <route>R4</route>
+      <route>11</route>
+    </stop>
+    <stop name="Taman Makam Pahlawan 2">
+      <route>R2</route>
+      <route>9</route>
+    </stop>
+    <stop name="Kutai 2">
+      <route>R2</route>
+    </stop>
+    <stop name="Kutai 1">
+      <route>R2</route>
+    </stop>
+    <stop name="Koni 2">
+      <route>R2</route>
+      <route>10</route>
+    </stop>
+    <stop name="Putat Gede 2">
+      <route>R2</route>
+      <route>9</route>
+    </stop>
+    <stop name="KPU">
+      <route>R2</route>
+      <route>9</route>
+    </stop>
+    <stop name="Balai Kota">
+      <route>R2</route>
+      <route>2</route>
+      <route>4</route>
+      <route>7</route>
+    </stop>
+    <stop name="Park and Ride Mayjend Sungkono B">
+      <route>2</route>
+      <route>5</route>
+      <route>9</route>
+    </stop>
+    <stop name="Kertajaya B">
+      <route>R2</route>
+      <route>7</route>
+    </stop>
+    <stop name="Gedung Juang 45">
+      <route>R2</route>
+      <route>9</route>
+    </stop>
+    <stop name="PENS 1 A">
+      <route>R2</route>
+      <route>R4</route>
+      <route>11</route>
+    </stop>
+    <stop name="UNAIR"/>
+    <stop name="Kejawan Putih Tambak">
+      <route>R2</route>
+    </stop>
+    <stop name="Aditya Warman">
+      <route>R2</route>
+    </stop>
+    <stop name="Moestopo">
+      <route>R2</route>
+    </stop>
+    <stop name="Bengawan 1">
+      <route>R2</route>
+    </stop>
+    <stop name="SMA Negeri 4"/>
+    <stop name="Grand City">
+      <route>R2</route>
+      <route>2</route>
+      <route>7</route>
+    </stop>
+    <stop name="Indragiri"/>
+    <stop name="Pemuda RRI"/>
+    <stop name="PCM">
+      <route>R2</route>
+    </stop>
+    <stop name="UNESA">
+      <route>R2</route>
+      <route>6</route>
+      <route>8</route>
+    </stop>
+    <stop name="Putat Gede 1">
+      <route>R2</route>
+      <route>9</route>
+    </stop>
+    <stop name="Jono Soewojo 2">
+      <route>R2</route>
+      <route>8</route>
+    </stop>
+    <stop name="Bundaran ITS">
+      <route>R2</route>
+      <route>R4</route>
+      <route>11</route>
+      <route>12</route>
+    </stop>
+    <stop name="Jono Soewojo 1">
+      <route>R2</route>
+      <route>8</route>
+    </stop>
+    <stop name="Laguna">
+      <route>R2</route>
+    </stop>
+    <stop name="Kertajaya A">
+      <route>R2</route>
+      <route>7</route>
+    </stop>
+    <stop name="Gramedia">
+      <route>R2</route>
+    </stop>
+    <stop name="Pradah Kali Kendal A">
+      <route>R2</route>
+    </stop>
+    <stop name="Patung Kuda 1">
+      <route>R2</route>
+    </stop>
+    <stop name="Samsat Manyar">
+      <route>R2</route>
+      <route>10</route>
+    </stop>
+    <stop name="Bengawan 2">
+      <route>R2</route>
+    </stop>
+    <stop name="Patung Kuda 2">
+      <route>R2</route>
+    </stop>
+    <stop name="Taman Makam Pahlawan 1">
+      <route>R2</route>
+      <route>9</route>
+    </stop>
+    <stop name="Klampis">
+      <route>R2</route>
+      <route>10</route>
+    </stop>
+    <stop name="Rusun Gunung Sari A">
+      <route>6</route>
+    </stop>
+    <stop name="Pasar Ikan A">
+      <route>6</route>
+    </stop>
+    <stop name="Mastrip A">
+      <route>6</route>
+    </stop>
+    <stop name="Gogor A">
+      <route>6</route>
+    </stop>
+    <stop name="Gemol A">
+      <route>6</route>
+    </stop>
+    <stop name="Universitas Wijaya Putra">
+      <route>6</route>
+    </stop>
+    <stop name="Kecamatan Wiyung A">
+      <route>6</route>
+    </stop>
+    <stop name="Taman Mozaik A">
+      <route>6</route>
+    </stop>
+    <stop name="Pondok Rosan A">
+      <route>6</route>
+    </stop>
+    <stop name="Graha Sampoerna Indah">
+      <route>6</route>
+    </stop>
+    <stop name="Griya Babatan Mukti A">
+      <route>6</route>
+    </stop>
+    <stop name="Babatan A">
+      <route>6</route>
+    </stop>
+    <stop name="Babatan B">
+      <route>6</route>
+    </stop>
+    <stop name="Dukuh Karangan">
+      <route>6</route>
+    </stop>
+    <stop name="Kecamatan Wiyung B">
+      <route>6</route>
+    </stop>
+    <stop name="Gemol B">
+      <route>6</route>
+    </stop>
+    <stop name="Gogor B">
+      <route>6</route>
+    </stop>
+    <stop name="Mastrip B">
+      <route>6</route>
+    </stop>
+    <stop name="Pasar Ikan B">
+      <route>6</route>
+    </stop>
+    <stop name="Rusun Gunung Sari B">
+      <route>6</route>
+    </stop>
+    <stop name="Griya Babatan Mukti B">
+      <route>6</route>
+    </stop>
+    <stop name="Pondok Rosan B">
+      <route>6</route>
+    </stop>
+    <stop name="Taman Mozaik B">
+      <route>6</route>
+    </stop>
+    <stop name="Keramat">
+      <route>6</route>
+    </stop>
+    <stop name="KBS">
+      <route>3</route>
+      <route>4</route>
+      <route>6</route>
+      <route>9</route>
+    </stop>
+    <stop name="RSI A. Yani">
+      <route>3</route>
+      <route>4</route>
+      <route>6</route>
+      <route>9</route>
+    </stop>
+    <stop name="Villa Bukit Mas A">
+      <route>6</route>
+    </stop>
+    <stop name="Babatan Indah A">
+      <route>6</route>
+    </stop>
+    <stop name="Waringin A">
+      <route>6</route>
+    </stop>
+    <stop name="Lakarsantri B">
+      <route>6</route>
+    </stop>
+    <stop name="Lembah Harapan A">
+      <route>6</route>
+    </stop>
+    <stop name="Taman Ronggolawe A">
+      <route>6</route>
+    </stop>
+    <stop name="Banjar Melati B">
+      <route>6</route>
+    </stop>
+    <stop name="Lidah Wetan A">
+      <route>6</route>
+    </stop>
+    <stop name="Gajah Mada A">
+      <route>6</route>
+    </stop>
+    <stop name="Jeruk B">
+      <route>6</route>
+    </stop>
+    <stop name="SMPN 28 A">
+      <route>6</route>
+    </stop>
+    <stop name="Jembatan Rolak A">
+      <route>6</route>
+    </stop>
+    <stop name="Kantor Kelurahan Jeruk B">
+      <route>6</route>
+    </stop>
+    <stop name="Prambanan Residence A">
+      <route>6</route>
+    </stop>
+    <stop name="Jogoloyo A">
+      <route>6</route>
+    </stop>
+    <stop name="Bank BRI Lakarsantri B">
+      <route>6</route>
+    </stop>
+    <stop name="Bank Jatim Lidah Kulon A">
+      <route>6</route>
+    </stop>
+    <stop name="Jarsongo A">
+      <route>6</route>
+    </stop>
+    <stop name="Sepat Lidah Kulon 2B">
+      <route>6</route>
+    </stop>
+    <stop name="Lidah Kulon A">
+      <route>6</route>
+    </stop>
+    <stop name="SWK Wiyung A">
+      <route>6</route>
+    </stop>
+    <stop name="SDN Lidah Kulon I B">
+      <route>6</route>
+    </stop>
+    <stop name="Sepat Lidah Kulon 1A">
+      <route>6</route>
+    </stop>
+    <stop name="Royal Residence A">
+      <route>6</route>
+    </stop>
+    <stop name="Sepat Lidah Kulon 1B">
+      <route>6</route>
+    </stop>
+    <stop name="Wisma Lidah Kulon A">
+      <route>6</route>
+    </stop>
+    <stop name="Babatan Indah B">
+      <route>6</route>
+    </stop>
+    <stop name="Lidah Kulon B">
+      <route>6</route>
+    </stop>
+    <stop name="Wisma Lidah Kulon II A">
+      <route>6</route>
+    </stop>
+    <stop name="Babatan Gang Musholla A">
+      <route>6</route>
+    </stop>
+    <stop name="Bank Jatim Lidah Kulon B">
+      <route>6</route>
+    </stop>
+    <stop name="GKRI Calvary A">
+      <route>6</route>
+    </stop>
+    <stop name="Babatan Gang Musholla B">
+      <route>6</route>
+    </stop>
+    <stop name="Prambanan Residence B">
+      <route>6</route>
+    </stop>
+    <stop name="Terminal Lidah Kulon">
+      <route>6</route>
+    </stop>
+    <stop name="Royal Residence B">
+      <route>6</route>
+    </stop>
+    <stop name="SMPN 28 B">
+      <route>6</route>
+    </stop>
+    <stop name="GKRI Calvary B">
+      <route>6</route>
+    </stop>
+    <stop name="SWK Wiyung B">
+      <route>6</route>
+    </stop>
+    <stop name="Lidah Wetan B">
+      <route>6</route>
+    </stop>
+    <stop name="Wisma Lidah Kulon II B">
+      <route>6</route>
+    </stop>
+    <stop name="Jarsongo B">
+      <route>6</route>
+    </stop>
+    <stop name="Lembah Harapan B">
+      <route>6</route>
+    </stop>
+    <stop name="Wisma Lidah Kulon B">
+      <route>6</route>
+    </stop>
+    <stop name="Jogoloyo B">
+      <route>6</route>
+    </stop>
+    <stop name="Villa Bukit Mas B">
+      <route>6</route>
+    </stop>
+    <stop name="SDN Lidah Kulon I A">
+      <route>6</route>
+    </stop>
+    <stop name="Jembatan Rolak B">
+      <route>6</route>
+    </stop>
+    <stop name="Sepat Lidah Kulon 2A">
+      <route>6</route>
+    </stop>
+    <stop name="Gajah Mada B">
+      <route>6</route>
+    </stop>
+    <stop name="Bank BRI Lakarsantri A">
+      <route>6</route>
+    </stop>
+    <stop name="Taman Ronggolawe B">
+      <route>6</route>
+    </stop>
+    <stop name="Kantor Kelurahan Jeruk A">
+      <route>6</route>
+    </stop>
+    <stop name="Waringin B">
+      <route>6</route>
+    </stop>
+    <stop name="Jeruk A">
+      <route>6</route>
+    </stop>
+    <stop name="Banjar Melati A">
+      <route>6</route>
+    </stop>
+    <stop name="Lakarsantri A">
+      <route>6</route>
+    </stop>
+    <stop name="PMK Lakarsantri">
+      <route>6</route>
+    </stop>
+    <stop name="SWK Penjaringan Sari A">
+      <route>3</route>
+    </stop>
+    <stop name="MI Al Bukhori B">
+      <route>3</route>
+    </stop>
+    <stop name="Stasiun Wonokromo A">
+      <route>3</route>
+    </stop>
+    <stop name="SDN Ngagel A">
+      <route>3</route>
+    </stop>
+    <stop name="SPBU Ngagel A">
+      <route>3</route>
+    </stop>
+    <stop name="Novotel A">
+      <route>3</route>
+    </stop>
+    <stop name="Pasar Sinar Baru B">
+      <route>3</route>
+    </stop>
+    <stop name="Simpang Kedung Asem B">
+      <route>3</route>
+    </stop>
+    <stop name="Ngagel 1A">
+      <route>3</route>
+      <route>4</route>
+    </stop>
+    <stop name="Kedung Asem Masjid B">
+      <route>3</route>
+    </stop>
+    <stop name="SD Islam Yamassa B">
+      <route>3</route>
+    </stop>
+    <stop name="Marvel">
+      <route>3</route>
+      <route>4</route>
+    </stop>
+    <stop name="TMP Ngagel 1">
+      <route>3</route>
+    </stop>
+    <stop name="Kedung Baruk Gang Patung B">
+      <route>3</route>
+    </stop>
+    <stop name="Kedung Baruk Masjid B">
+      <route>3</route>
+    </stop>
+    <stop name="Bung Tomo">
+      <route>3</route>
+    </stop>
+    <stop name="SDN Kedung Baruk B">
+      <route>3</route>
+    </stop>
+    <stop name="Ngagel Jaya Barat">
+      <route>3</route>
+    </stop>
+    <stop name="Simpang Kedung Baruk B">
+      <route>3</route>
+    </stop>
+    <stop name="Ngagel Jaya Selatan">
+      <route>3</route>
+    </stop>
+    <stop name="Terowongan Medokan B">
+      <route>3</route>
+    </stop>
+    <stop name="Medokan Semampir B">
+      <route>3</route>
+    </stop>
+    <stop name="Ngagel Madya A">
+      <route>3</route>
+    </stop>
+    <stop name="Semampir Tengah B">
+      <route>3</route>
+    </stop>
+    <stop name="Makam Pumpungan A">
+      <route>3</route>
+    </stop>
+    <stop name="UNTAG A">
+      <route>3</route>
+    </stop>
+    <stop name="Nginden Semolo A">
+      <route>3</route>
+    </stop>
+    <stop name="Semolowaru A">
+      <route>3</route>
+    </stop>
+    <stop name="Semolowaru Elok A">
+      <route>3</route>
+    </stop>
+    <stop name="Simpang Semolowaru A">
+      <route>3</route>
+    </stop>
+    <stop name="Semolowaru Tengah A">
+      <route>3</route>
+    </stop>
+    <stop name="Semolowaru Masjid A">
+      <route>3</route>
+    </stop>
+    <stop name="Semolowaru Masjid B">
+      <route>3</route>
+    </stop>
+    <stop name="Semampir Tengah A">
+      <route>3</route>
+    </stop>
+    <stop name="SWK Gunung Anyar A">
+      <route>3</route>
+    </stop>
+    <stop name="Semolowaru Tengah B">
+      <route>3</route>
+    </stop>
+    <stop name="Medokan Semampir A">
+      <route>3</route>
+    </stop>
+    <stop name="Rektorat UPN A">
+      <route>3</route>
+    </stop>
+    <stop name="Simpang Semolowaru B">
+      <route>3</route>
+    </stop>
+    <stop name="Terowongan Medokan A">
+      <route>3</route>
+    </stop>
+    <stop name="Semolowaru Elok B">
+      <route>3</route>
+    </stop>
+    <stop name="MERR Semampir A">
+      <route>3</route>
+    </stop>
+    <stop name="Semolowaru B">
+      <route>3</route>
+    </stop>
+    <stop name="Nginden Semolo B">
+      <route>3</route>
+    </stop>
+    <stop name="UNTAG B">
+      <route>3</route>
+    </stop>
+    <stop name=" MERR Semampir B">
+      <route>3</route>
+    </stop>
+    <stop name="Ruko Kedung Baruk">
+      <route>3</route>
+    </stop>
+    <stop name="Pasar Gunung Anyar A">
+      <route>3</route>
+    </stop>
+    <stop name="Pasar Gunung Anyar B">
+      <route>3</route>
+    </stop>
+    <stop name="Simpang Kedung Baruk A">
+      <route>3</route>
+    </stop>
+    <stop name="SDN Kedung Baruk A">
+      <route>3</route>
+    </stop>
+    <stop name="Kedung Baruk Masjid A">
+      <route>3</route>
+    </stop>
+    <stop name="Kedung Baruk  Gang Patung A">
+      <route>3</route>
+    </stop>
+    <stop name="SD Islam Yamassa A">
+      <route>3</route>
+    </stop>
+    <stop name="Kedung Asem Masjid A">
+      <route>3</route>
+    </stop>
+    <stop name="Simpang Kedung Asem A">
+      <route>3</route>
+    </stop>
+    <stop name="Pasar Sinar Baru  A">
+      <route>3</route>
+    </stop>
+    <stop name="Rektorat UPN B">
+      <route>3</route>
+    </stop>
+    <stop name="MI Al Bukhori A">
+      <route>3</route>
+    </stop>
+    <stop name="Makam Pumpungan B">
+      <route>3</route>
+    </stop>
+    <stop name="Ruko Barata Jaya">
+      <route>3</route>
+      <route>7</route>
+    </stop>
+    <stop name="Pegadaian Bratang Binangun">
+      <route>3</route>
+      <route>7</route>
+    </stop>
+    <stop name="Maybank Bratang Binangun">
+      <route>3</route>
+      <route>7</route>
+    </stop>
+    <stop name="Ngagel Madya B">
+      <route>3</route>
+    </stop>
+    <stop name="Pasar Krukah">
+      <route>3</route>
+    </stop>
+    <stop name="Krukah Tengah">
+      <route>3</route>
+    </stop>
+    <stop name="TMP Ngagel 2">
+      <route>3</route>
+    </stop>
+    <stop name="Upa Jiwa">
+      <route>3</route>
+      <route>4</route>
+    </stop>
+    <stop name="Ratna">
+      <route>3</route>
+      <route>4</route>
+    </stop>
+    <stop name="Ngagel 1B">
+      <route>3</route>
+    </stop>
+    <stop name="Novotel B">
+      <route>3</route>
+    </stop>
+    <stop name="SPBU Ngagel B">
+      <route>3</route>
+    </stop>
+    <stop name="SDN Ngagel B">
+      <route>3</route>
+    </stop>
+    <stop name="Stasiun Wonokromo B">
+      <route>3</route>
+    </stop>
+    <stop name="SWK Penjaringan Sari B">
+      <route>3</route>
+    </stop>
+    <stop name="SMPN 62">
+      <route>3</route>
+    </stop>
+    <stop name="Bumi Pratama Asri B">
+      <route>3</route>
+    </stop>
+    <stop name="Central Park B">
+      <route>3</route>
+    </stop>
+    <stop name="Kelurahan Gunung Anyar Tambak B">
+      <route>3</route>
+    </stop>
+    <stop name="Taman Wiguna Timur B">
+      <route>3</route>
+    </stop>
+    <stop name="Medokan Asri Barat B">
+      <route>3</route>
+    </stop>
+    <stop name="Penjaringan Asri 2B">
+      <route>3</route>
+    </stop>
+    <stop name="Penjaringan Asri 1B">
+      <route>3</route>
+    </stop>
+    <stop name="Medokan Asri Utara B">
+      <route>3</route>
+    </stop>
+    <stop name="Wisma Penjaringan Sari B">
+      <route>3</route>
+    </stop>
+    <stop name="Pasar Wisata Penjaringan Sari B">
+      <route>3</route>
+    </stop>
+    <stop name="Medokan Asri Tengah A"/>
+    <stop name="Medokan Asri Tengah B"/>
+    <stop name="Pasar Wisata Penjaringan Sari A">
+      <route>3</route>
+    </stop>
+    <stop name="RSUD Eka Candrarini"/>
+    <stop name="Wisma Penjaringan Sari A">
+      <route>3</route>
+    </stop>
+    <stop name="YKP Pandugo A">
+      <route>3</route>
+    </stop>
+    <stop name="Medokan Asri Utara A">
+      <route>3</route>
+    </stop>
+    <stop name="Penjaringan Asri 1A">
+      <route>3</route>
+    </stop>
+    <stop name="Penjaringan Asri 2A">
+      <route>3</route>
+    </stop>
+    <stop name="Medokan Asri Barat A">
+      <route>3</route>
+    </stop>
+    <stop name="Taman Rivera A">
+      <route>3</route>
+    </stop>
+    <stop name="Medokan Sawah Timur A">
+      <route>3</route>
+    </stop>
+    <stop name="KRM Gunung Anyar">
+      <route>3</route>
+    </stop>
+    <stop name="Medokan Sawah Timur B">
+      <route>3</route>
+    </stop>
+    <stop name="Taman Rivera B">
+      <route>3</route>
+    </stop>
+    <stop name="Taman Wiguna Timur A">
+      <route>3</route>
+    </stop>
+    <stop name="Kelurahan Gunung Anyar Tambak A">
+      <route>3</route>
+    </stop>
+    <stop name="Central Park A">
+      <route>3</route>
+    </stop>
+    <stop name="Bumi Pratama Asri A">
+      <route>3</route>
+    </stop>
+    <stop name="POLTEKPEL">
+      <route>3</route>
+    </stop>
+    <stop name="SWK Gunung Anyar"/>
+    <stop name="Rungkut Asri Timur A">
+      <route>3</route>
+    </stop>
+    <stop name="Gunung Anyar Jaya">
+      <route>3</route>
+    </stop>
+    <stop name="Wiguna A">
+      <route>3</route>
+    </stop>
+    <stop name="Wiguna Tengah B">
+      <route>3</route>
+    </stop>
+    <stop name="Graha YKP A">
+      <route>3</route>
+    </stop>
+    <stop name="Wiguna Tengah A">
+      <route>3</route>
+    </stop>
+    <stop name="Wiguna Timur A">
+      <route>3</route>
+    </stop>
+    <stop name="Gunung Anyar Tambak A">
+      <route>3</route>
+    </stop>
+    <stop name="Gapercy A">
+      <route>3</route>
+    </stop>
+    <stop name="Gapercy B">
+      <route>3</route>
+    </stop>
+    <stop name="Gunung Anyar Tambak B">
+      <route>3</route>
+    </stop>
+    <stop name="Wiguna Timur B">
+      <route>3</route>
+    </stop>
+    <stop name="Wiguna B">
+      <route>3</route>
+    </stop>
+    <stop name="Rungkut Asri Timur B">
+      <route>3</route>
+    </stop>
+    <stop name="MERR Gunung Anyar">
+      <route>3</route>
+    </stop>
+    <stop name="Medokan Asri Timur A">
+      <route>3</route>
+    </stop>
+    <stop name="Gunung Anyar Sawah A">
+      <route>3</route>
+    </stop>
+    <stop name="Puri Jimbaran A">
+      <route>3</route>
+    </stop>
+    <stop name="Wiguna Timur 1A"/>
+    <stop name="Wiguna Timur 2">
+      <route>3</route>
+    </stop>
+    <stop name="Gunung Anyar Asri A">
+      <route>3</route>
+    </stop>
+    <stop name="Evergreen A">
+      <route>3</route>
+    </stop>
+    <stop name="Pesona Alam Gunung Anyar A">
+      <route>3</route>
+    </stop>
+    <stop name="Pesona Alam Gunung Anyar B">
+      <route>3</route>
+    </stop>
+    <stop name="Evergreen B">
+      <route>3</route>
+    </stop>
+    <stop name="Gunung Anyar Asri B"/>
+    <stop name="Puri Jimbaran B">
+      <route>3</route>
+    </stop>
+    <stop name="Gunung Anyar Jaya B">
+      <route>3</route>
+    </stop>
+    <stop name="SWK Gunung Anyar B">
+      <route>3</route>
+    </stop>
+    <stop name="Gunung Anyar Sawah B">
+      <route>3</route>
+    </stop>
+    <stop name="Medokan Asri Timur B">
+      <route>3</route>
+    </stop>
+    <stop name="RS Royal">
+      <route>4</route>
+    </stop>
+    <stop name="Kendangsari Industri A">
+      <route>4</route>
+    </stop>
+    <stop name="Kantor Pos Kendangsari A">
+      <route>4</route>
+    </stop>
+    <stop name="RSIA Kendangsari A">
+      <route>4</route>
+    </stop>
+    <stop name="Kendangsari A">
+      <route>4</route>
+    </stop>
+    <stop name="Simpang Tenggilis Barat A">
+      <route>4</route>
+    </stop>
+    <stop name="Polsek Simokerto B">
+      <route>4</route>
+      <route>10</route>
+    </stop>
+    <stop name="Gembong Sawahan B">
+      <route>4</route>
+      <route>10</route>
+    </stop>
+    <stop name="Tenggilis Barat A">
+      <route>4</route>
+    </stop>
+    <stop name="RS Adi Husada Kapasari B">
+      <route>4</route>
+    </stop>
+    <stop name="Gembong Tebasan B">
+      <route>4</route>
+    </stop>
+    <stop name="Plaza Marina A">
+      <route>4</route>
+    </stop>
+    <stop name="Simpang Gembong Tebasan B">
+      <route>4</route>
+    </stop>
+    <stop name="Margorejo Indah A">
+      <route>4</route>
+    </stop>
+    <stop name="RS Adi Husada Undaan B">
+      <route>4</route>
+    </stop>
+    <stop name="Superindo Margorejo A">
+      <route>4</route>
+    </stop>
+    <stop name="RS Mata Undaan B">
+      <route>4</route>
+    </stop>
+    <stop name="Maspion Square">
+      <route>4</route>
+    </stop>
+    <stop name="Kamboja">
+      <route>4</route>
+    </stop>
+    <stop name="Jaksa Agung Suprapto">
+      <route>4</route>
+      <route>7</route>
+    </stop>
+    <stop name="Pandan">
+      <route>4</route>
+    </stop>
+    <stop name="Legundi B">
+      <route>4</route>
+    </stop>
+    <stop name="Darmokali 1A">
+      <route>4</route>
+    </stop>
+    <stop name="Sumatera B">
+      <route>4</route>
+      <route>7</route>
+    </stop>
+    <stop name="Ruko Gubeng B">
+      <route>4</route>
+      <route>7</route>
+    </stop>
+    <stop name="Darmokali 2A">
+      <route>4</route>
+    </stop>
+    <stop name="Taman Lansia B">
+      <route>4</route>
+      <route>7</route>
+    </stop>
+    <stop name="Progo A">
+      <route>4</route>
+    </stop>
+    <stop name="Taman Lansia A">
+      <route>4</route>
+      <route>7</route>
+    </stop>
+    <stop name="Dinoyo A">
+      <route>4</route>
+    </stop>
+    <stop name="Ruko Gubeng A">
+      <route>7</route>
+    </stop>
+    <stop name="Kantor Pajak Dinoyo A">
+      <route>4</route>
+    </stop>
+    <stop name="Pengadilan Tinggi B">
+      <route>4</route>
+    </stop>
+    <stop name="Universitas Widya Mandala A">
+      <route>4</route>
+    </stop>
+    <stop name="PMI Sumatera B">
+      <route>4</route>
+    </stop>
+    <stop name="Sumbawa">
+      <route>4</route>
+      <route>7</route>
+    </stop>
+    <stop name="Biliton 1">
+      <route>4</route>
+      <route>7</route>
+    </stop>
+    <stop name="Jawa">
+      <route>4</route>
+    </stop>
+    <stop name="Biliton 2">
+      <route>4</route>
+      <route>7</route>
+    </stop>
+    <stop name="PMI Sumatera A">
+      <route>4</route>
+    </stop>
+    <stop name="Sulawesi">
+      <route>4</route>
+      <route>7</route>
+    </stop>
+    <stop name="Pengadilan Tinggi A">
+      <route>4</route>
+    </stop>
+    <stop name="Universitas Widya Mandala B">
+      <route>4</route>
+    </stop>
+    <stop name="Sumatera A">
+      <route>4</route>
+      <route>7</route>
+    </stop>
+    <stop name="Kantor Pajak Dinoyo B">
+      <route>4</route>
+    </stop>
+    <stop name="Legundi A">
+      <route>4</route>
+    </stop>
+    <stop name="Dinoyo B">
+      <route>4</route>
+    </stop>
+    <stop name="Bkr Pelajar">
+      <route>4</route>
+    </stop>
+    <stop name="Kantor Pemkot">
+      <route>4</route>
+      <route>7</route>
+    </stop>
+    <stop name="GSJA Eben Haezer">
+      <route>4</route>
+    </stop>
+    <stop name="RS Mata Undaan A">
+      <route>4</route>
+    </stop>
+    <stop name="Progo B">
+      <route>4</route>
+    </stop>
+    <stop name="RS Adi Husada Undaan A">
+      <route>4</route>
+    </stop>
+    <stop name="Darmokali 2B">
+      <route>4</route>
+    </stop>
+    <stop name="Simpang Gembong Tebasan A">
+      <route>4</route>
+    </stop>
+    <stop name="Darmokali 1B">
+      <route>4</route>
+    </stop>
+    <stop name="Gembong Tebasan A">
+      <route>4</route>
+    </stop>
+    <stop name="RS Adi Husada Kapasari A">
+      <route>4</route>
+    </stop>
+    <stop name="Gembong Sawahan A">
+      <route>4</route>
+      <route>10</route>
+    </stop>
+    <stop name="Margorejo 2">
+      <route>4</route>
+    </stop>
+    <stop name="Polsek Simokerto A">
+      <route>4</route>
+      <route>10</route>
+    </stop>
+    <stop name="Superindo Margorejo B">
+      <route>4</route>
+    </stop>
+    <stop name="ITC">
+      <route>4</route>
+      <route>10</route>
+    </stop>
+    <stop name="Margorejo Indah B">
+      <route>4</route>
+    </stop>
+    <stop name="Pasar Atom 1">
+      <route>4</route>
+      <route>10</route>
+    </stop>
+    <stop name="Plaza Marina B">
+      <route>4</route>
+    </stop>
+    <stop name="Pasar Atom 2">
+      <route>4</route>
+      <route>10</route>
+    </stop>
+    <stop name="Tenggilis Barat B">
+      <route>4</route>
+    </stop>
+    <stop name="Simpang Tenggilis Barat B">
+      <route>4</route>
+    </stop>
+    <stop name="Kendangsari B">
+      <route>4</route>
+    </stop>
+    <stop name="RSIA Kendangsari B">
+      <route>4</route>
+    </stop>
+    <stop name="Kantor Pos Kendangsari B">
+      <route>4</route>
+    </stop>
+    <stop name="Kendangsari Industri B">
+      <route>4</route>
+    </stop>
+    <stop name="Terminal Kasuari">
+      <route>4</route>
+    </stop>
+    <stop name="Terminal Keputih">
+      <route>10</route>
+    </stop>
+    <stop name="Bumi Marina Emas A">
+      <route>10</route>
+    </stop>
+    <stop name="Kantor LPMK Keputih A">
+      <route>10</route>
+    </stop>
+    <stop name="Keputih Makam A">
+      <route>10</route>
+    </stop>
+    <stop name="Universitas Hang Tuah">
+      <route>10</route>
+    </stop>
+    <stop name="Rangkah B">
+      <route>10</route>
+    </stop>
+    <stop name="Vita School A">
+      <route>10</route>
+    </stop>
+    <stop name="Karang Empat Besar B">
+      <route>10</route>
+    </stop>
+    <stop name="Unipra">
+      <route>10</route>
+      <route>11</route>
+    </stop>
+    <stop name="SWK Kapas Krampung">
+      <route>10</route>
+    </stop>
+    <stop name="ITATS 2">
+      <route>10</route>
+      <route>11</route>
+    </stop>
+    <stop name="SDN Pacar Kembang 1 B">
+      <route>10</route>
+    </stop>
+    <stop name="Narotama B">
+      <route>10</route>
+      <route>11</route>
+    </stop>
+    <stop name="Mardi Putera B">
+      <route>10</route>
+    </stop>
+    <stop name="SMA Giki 3 A">
+      <route>10</route>
+    </stop>
+    <stop name="Pasar Pacar Keling">
+      <route>10</route>
+    </stop>
+    <stop name="Klampis Jaya A">
+      <route>10</route>
+    </stop>
+    <stop name="Tambang Boyo">
+      <route>10</route>
+    </stop>
+    <stop name="Manyar Tirtoyoso A">
+      <route>10</route>
+    </stop>
+    <stop name="Politeknik Kesehatan B">
+      <route>10</route>
+    </stop>
+    <stop name="Manyar Kertoarjo A">
+      <route>10</route>
+    </stop>
+    <stop name="Karang Menjangan B">
+      <route>10</route>
+    </stop>
+    <stop name="Kalidami A">
+      <route>10</route>
+    </stop>
+    <stop name="Kalidami B">
+      <route>10</route>
+    </stop>
+    <stop name="Karang Menjangan A">
+      <route>10</route>
+    </stop>
+    <stop name="Politeknik Kesehatan A">
+      <route>10</route>
+    </stop>
+    <stop name="Manyar Kertoarjo B">
+      <route>10</route>
+    </stop>
+    <stop name="RSUD Dr. Soetomo 2"/>
+    <stop name="Manyar Tirtoyoso B">
+      <route>10</route>
+    </stop>
+    <stop name="SMAN 4">
+      <route>R2</route>
+      <route>10</route>
+    </stop>
+    <stop name="Stasiun Gubeng Baru">
+      <route>7</route>
+      <route>10</route>
+    </stop>
+    <stop name="Klampis Jaya B">
+      <route>10</route>
+    </stop>
+    <stop name="Indrakila">
+      <route>10</route>
+    </stop>
+    <stop name="SMA Giki 3 B">
+      <route>10</route>
+    </stop>
+    <stop name="Indrakila 2">
+      <route>10</route>
+    </stop>
+    <stop name="Narotama A">
+      <route>10</route>
+      <route>11</route>
+    </stop>
+    <stop name="Kalasan">
+      <route>10</route>
+    </stop>
+    <stop name="Puskesmas Klampis Ngasem">
+      <route>10</route>
+      <route>11</route>
+    </stop>
+    <stop name="Simpang Kalasan">
+      <route>10</route>
+    </stop>
+    <stop name="Convention Hall ARH">
+      <route>10</route>
+      <route>11</route>
+    </stop>
+    <stop name="Jolotundo">
+      <route>10</route>
+    </stop>
+    <stop name="Vita School B">
+      <route>10</route>
+    </stop>
+    <stop name="Mardi Putera A">
+      <route>10</route>
+    </stop>
+    <stop name="Medical Center ITS">
+      <route>10</route>
+    </stop>
+    <stop name="SDN Pacar Kembang 1 A">
+      <route>10</route>
+    </stop>
+    <stop name="Keputih Makam B">
+      <route>10</route>
+    </stop>
+    <stop name="Ploso">
+      <route>10</route>
+    </stop>
+    <stop name="Kantor LPMK Keputih B">
+      <route>10</route>
+    </stop>
+    <stop name="Karang Empat Besar A">
+      <route>10</route>
+    </stop>
+    <stop name="Keputih Tegal Timur 1A">
+      <route>10</route>
+    </stop>
+    <stop name="Rangkah A">
+      <route>10</route>
+    </stop>
+    <stop name="Keputih Tegal Timur 2A">
+      <route>10</route>
+    </stop>
+    <stop name="Apartemen Dian Sukolilo Regency">
+      <route>10</route>
+    </stop>
+    <stop name="RSUD dr. Mohamad Soewandhi">
+      <route>10</route>
+    </stop>
+    <stop name="Simpang Keputih Tegal Timur">
+      <route>10</route>
+    </stop>
+    <stop name="Keputih Tegal Timur 2B">
+      <route>10</route>
+    </stop>
+    <stop name="Keputih Tegal Timur 1B">
+      <route>10</route>
+    </stop>
+    <stop name="Bumi Marina Emas B">
+      <route>10</route>
+    </stop>
+    <stop name="GRHA Adyatma">
+      <route>10</route>
+    </stop>
+    <stop name="Makam Rangkah"/>
+    <stop name="PMK Kenjeran"/>
+    <stop name="Kejawan Lor B">
+      <route>11</route>
+    </stop>
+    <stop name="Simpang Barata Jaya 1">
+      <route>11</route>
+    </stop>
+    <stop name="Simpang Barata Jaya 2">
+      <route>11</route>
+    </stop>
+    <stop name="THP Kenjeran Utara B">
+      <route>11</route>
+    </stop>
+    <stop name="SD Muhammadiyah 9">
+      <route>11</route>
+    </stop>
+    <stop name="Hotel Narita Barata Jaya">
+      <route>11</route>
+    </stop>
+    <stop name="Universitas Widya Kartika B">
+      <route>11</route>
+    </stop>
+    <stop name="Nginden Kota A">
+      <route>11</route>
+    </stop>
+    <stop name="Mulyosari Mapan B">
+      <route>11</route>
+    </stop>
+    <stop name="Sutorejo Indah B">
+      <route>11</route>
+    </stop>
+    <stop name="Manyar 2A">
+      <route>11</route>
+    </stop>
+    <stop name="Wisma Permai B">
+      <route>11</route>
+    </stop>
+    <stop name="Manyar Medical Centre A">
+      <route>11</route>
+    </stop>
+    <stop name="PENS B"/>
+    <stop name="STIESIA A">
+      <route>11</route>
+    </stop>
+    <stop name="Manyar Indah A">
+      <route>11</route>
+    </stop>
+    <stop name="Apartemen Puncak Kertajaya A">
+      <route>11</route>
+    </stop>
+    <stop name="PENS A"/>
+    <stop name="Apartemen Puncak Kertajaya B">
+      <route>11</route>
+    </stop>
+    <stop name="Manyar Indah B">
+      <route>11</route>
+    </stop>
+    <stop name="STIESIA B">
+      <route>11</route>
+    </stop>
+    <stop name="Manyar Medical Centre B">
+      <route>11</route>
+    </stop>
+    <stop name="Manyar 2B">
+      <route>11</route>
+    </stop>
+    <stop name="Wisma Permai A">
+      <route>11</route>
+    </stop>
+    <stop name="Sutorejo Indah A">
+      <route>11</route>
+    </stop>
+    <stop name="Pantai Batu Batu Kenjeran B">
+      <route>11</route>
+    </stop>
+    <stop name="Mulyosari Mapan A">
+      <route>11</route>
+    </stop>
+    <stop name="Universitas Widya Kartika A">
+      <route>11</route>
+    </stop>
+    <stop name="Kantor Kelurahan Sukolilo Baru A">
+      <route>11</route>
+    </stop>
+    <stop name="Sukolilo Lor">
+      <route>11</route>
+    </stop>
+    <stop name="THP Kenjeran">
+      <route>11</route>
+    </stop>
+    <stop name="THP Kenjeran Utara A">
+      <route>11</route>
+    </stop>
+    <stop name="Kejawan Lor A">
+      <route>11</route>
+    </stop>
+    <stop name="Shelter Bulak">
+      <route>11</route>
+    </stop>
+    <stop name="Pantai Batu Batu Kenjeran A">
+      <route>11</route>
+    </stop>
+    <stop name="Menur A">
+      <route>7</route>
+    </stop>
+    <stop name="Menur B">
+      <route>7</route>
+    </stop>
+    <stop name="SMPN 47 B">
+      <route>9</route>
+    </stop>
+    <stop name="Terminal Menanggal">
+      <route>9</route>
+    </stop>
+    <stop name="SMKN 13 B">
+      <route>9</route>
+    </stop>
+    <stop name="Kantor Dinas Perhubungan Jawa Timur">
+      <route>9</route>
+    </stop>
+    <stop name="Satelit Indah B">
+      <route>8</route>
+      <route>9</route>
+    </stop>
+    <stop name="Simpang Darmo Baru Barat B">
+      <route>9</route>
+    </stop>
+    <stop name="Darmo Permai Timur B">
+      <route>9</route>
+    </stop>
+    <stop name="Ciliwung B">
+      <route>9</route>
+    </stop>
+    <stop name="Jetis Kulon B">
+      <route>9</route>
+    </stop>
+    <stop name="Ketintang Tengah B">
+      <route>9</route>
+    </stop>
+    <stop name="Sekolah Al Falah Ketintang B">
+      <route>9</route>
+    </stop>
+    <stop name="Ciliwung A">
+      <route>9</route>
+    </stop>
+    <stop name="SMP Baitussalam B">
+      <route>9</route>
+    </stop>
+    <stop name="Universitas Merdeka B">
+      <route>9</route>
+    </stop>
+    <stop name="Mayjend Sungkono">
+      <route>R2</route>
+      <route>9</route>
+    </stop>
+    <stop name="SD Darul Ulum B">
+      <route>9</route>
+    </stop>
+    <stop name="Pasar Pagesangan B">
+      <route>9</route>
+    </stop>
+    <stop name="Pagesangan Indah B">
+      <route>9</route>
+    </stop>
+    <stop name="Simpang Darmo Baru Barat A">
+      <route>9</route>
+    </stop>
+    <stop name="SMAN 15">
+      <route>9</route>
+    </stop>
+    <stop name="Satelit Utara A">
+      <route>9</route>
+    </stop>
+    <stop name="Terminal Balongsari">
+      <route>9</route>
+    </stop>
+    <stop name="Terminal Manukan">
+      <route>9</route>
+    </stop>
+    <stop name="Simpang Menanggal">
+      <route>9</route>
+    </stop>
+    <stop name="SWK Dukuh Menanggal">
+      <route>9</route>
+    </stop>
+    <stop name="GPT Kristus Menanggal">
+      <route>9</route>
+    </stop>
+    <stop name="Kantor Imigrasi Tanjung Perak B">
+      <route>9</route>
+    </stop>
+    <stop name="Kantor DPW PKB Jatim">
+      <route>9</route>
+    </stop>
+    <stop name="Darmo Indah Timur B">
+      <route>9</route>
+    </stop>
+    <stop name="Gayungsari Timur">
+      <route>9</route>
+    </stop>
+    <stop name="Satelit Utara B">
+      <route>9</route>
+    </stop>
+    <stop name="Gayungsari Barat">
+      <route>9</route>
+    </stop>
+    <stop name="SMPN 22">
+      <route>9</route>
+    </stop>
+    <stop name="Kejaksaan Negeri Surabaya B">
+      <route>9</route>
+    </stop>
+    <stop name="Masjid Al Akbar Surabaya">
+      <route>9</route>
+    </stop>
+    <stop name="Sukomanunggal Jaya B">
+      <route>9</route>
+    </stop>
+    <stop name="Pagesangan Indah A">
+      <route>9</route>
+    </stop>
+    <stop name="Pasar Pagesangan A">
+      <route>9</route>
+    </stop>
+    <stop name="Kebonsari Tengah A">
+      <route>9</route>
+    </stop>
+    <stop name="SD Darul Ulum A">
+      <route>9</route>
+    </stop>
+    <stop name="Jambangan Kebon Agung Asri A">
+      <route>9</route>
+    </stop>
+    <stop name="Jambangan Indah A">
+      <route>9</route>
+    </stop>
+    <stop name="Universitas Merdeka A">
+      <route>9</route>
+    </stop>
+    <stop name="Puri Kencana A">
+      <route>9</route>
+    </stop>
+    <stop name="SMP Baitussalam A">
+      <route>9</route>
+    </stop>
+    <stop name="Simpang Adityawarman B">
+      <route>9</route>
+    </stop>
+    <stop name="Sekolah Al Falah Ketintang A">
+      <route>9</route>
+    </stop>
+    <stop name="SDN Ketintang 1 A">
+      <route>9</route>
+    </stop>
+    <stop name="Ketintang Tengah A">
+      <route>9</route>
+    </stop>
+    <stop name="Telkom University A">
+      <route>9</route>
+    </stop>
+    <stop name="SMPN 32">
+      <route>9</route>
+    </stop>
+    <stop name="Jetis Kulon A">
+      <route>9</route>
+    </stop>
+    <stop name="Ketintang Timur PTT">
+      <route>9</route>
+    </stop>
+    <stop name="Telkom University B">
+      <route>9</route>
+    </stop>
+    <stop name="SDN Ketintang 1 B">
+      <route>9</route>
+    </stop>
+    <stop name="Simpang Adityawarman A">
+      <route>9</route>
+    </stop>
+    <stop name="Puri Kencana B">
+      <route>9</route>
+    </stop>
+    <stop name="Jambangan Indah B">
+      <route>9</route>
+    </stop>
+    <stop name="Jambangan Kebon Agung Asri B">
+      <route>9</route>
+    </stop>
+    <stop name="Kebonsari Tengah B">
+      <route>9</route>
+    </stop>
+    <stop name="Darmo Permai Timur A">
+      <route>9</route>
+    </stop>
+    <stop name="Pasar Rakyat Jambangan">
+      <route>9</route>
+    </stop>
+    <stop name="Sukomanunggal Jaya A">
+      <route>9</route>
+    </stop>
+    <stop name="SWK Gayungan">
+      <route>9</route>
+    </stop>
+    <stop name="Kejaksaan Negeri Surabaya A">
+      <route>9</route>
+    </stop>
+    <stop name="SDN Menanggal 601">
+      <route>9</route>
+    </stop>
+    <stop name="Satelit Indah A">
+      <route>8</route>
+      <route>9</route>
+    </stop>
+    <stop name="Darmo Indah Timur A">
+      <route>9</route>
+    </stop>
+    <stop name="Kantor Imigrasi Tanjung Perak A">
+      <route>9</route>
+    </stop>
+    <stop name="SMKN 13 A">
+      <route>9</route>
+    </stop>
+    <stop name="SMPN 47 A">
+      <route>9</route>
+    </stop>
+    <stop name="SWK Romokalisari">
+      <route>8</route>
+    </stop>
+    <stop name="T.O.W">
+      <route>8</route>
+    </stop>
+    <stop name="PKB Tandes A">
+      <route>8</route>
+    </stop>
+    <stop name="Simpang Margomulyo A">
+      <route>8</route>
+    </stop>
+    <stop name="Simpang Margomulyo B">
+      <route>8</route>
+    </stop>
+    <stop name="Margomulyo Indah A">
+      <route>8</route>
+    </stop>
+    <stop name="Margomulyo Indah B">
+      <route>8</route>
+    </stop>
+    <stop name="Sentong Asri A">
+      <route>8</route>
+    </stop>
+    <stop name="Sentong Asri B">
+      <route>8</route>
+    </stop>
+    <stop name="Margomulyo 1">
+      <route>8</route>
+    </stop>
+    <stop name="Margomulyo 2">
+      <route>8</route>
+    </stop>
+    <stop name="PKB Tandes B">
+      <route>8</route>
+    </stop>
+    <stop name="Tambak Sarioso A"/>
+    <stop name="Tambak Sarioso B"/>
+    <stop name="Pirngadi A">
+      <route>7</route>
+    </stop>
+    <stop name="SMKN 7">
+      <route>7</route>
+    </stop>
+    <stop name="GRHA Bunda PAUD">
+      <route>7</route>
+    </stop>
+    <stop name="Semarang">
+      <route>7</route>
+    </stop>
+    <stop name="Koblen">
+      <route>7</route>
+    </stop>
+    <stop name="Ngagel Jaya Tengah A">
+      <route>7</route>
+    </stop>
+    <stop name="Penghela">
+      <route>7</route>
+    </stop>
+    <stop name="Ngagel Jaya Utara A">
+      <route>7</route>
+    </stop>
+    <stop name="Monumen Resolusi Jihad">
+      <route>7</route>
+    </stop>
+    <stop name="Kalibokor Selatan A">
+      <route>7</route>
+    </stop>
+    <stop name="Gemblongan">
+      <route>7</route>
+    </stop>
+    <stop name="MPP Siola B">
+      <route>7</route>
+    </stop>
+    <stop name="Manyar Airdas A">
+      <route>7</route>
+    </stop>
+    <stop name="Cak Durasim B">
+      <route>7</route>
+    </stop>
+    <stop name="Manyar Dukuh A">
+      <route>7</route>
+    </stop>
+    <stop name="Genteng Kali B">
+      <route>7</route>
+    </stop>
+    <stop name="Manyar Sabrangan">
+      <route>7</route>
+    </stop>
+    <stop name="Ngemplak">
+      <route>7</route>
+    </stop>
+    <stop name="Kertajaya Masjid A">
+      <route>7</route>
+    </stop>
+    <stop name="Ketabang Ngemplak">
+      <route>7</route>
+    </stop>
+    <stop name="Bank BTPN Kertajaya A">
+      <route>7</route>
+    </stop>
+    <stop name="Wuni">
+      <route>7</route>
+    </stop>
+    <stop name="Flores A">
+      <route>7</route>
+    </stop>
+    <stop name="Banda A">
+      <route>7</route>
+    </stop>
+    <stop name="Raya Gubeng">
+      <route>7</route>
+    </stop>
+    <stop name="Banda B">
+      <route>7</route>
+    </stop>
+    <stop name="Balai Kota B">
+      <route>7</route>
+    </stop>
+    <stop name="Flores B">
+      <route>7</route>
+    </stop>
+    <stop name="Bank BTPN Kertajaya B">
+      <route>7</route>
+    </stop>
+    <stop name="Monumen Jenderal Sudirman">
+      <route>7</route>
+    </stop>
+    <stop name="Kertajaya Masjid B">
+      <route>7</route>
+    </stop>
+    <stop name="Taman Prestasi">
+      <route>7</route>
+    </stop>
+    <stop name="Pasar Manyar">
+      <route>7</route>
+    </stop>
+    <stop name="Gondosuli">
+      <route>7</route>
+    </stop>
+    <stop name="Manyar Dukuh B">
+      <route>7</route>
+    </stop>
+    <stop name="Kantor Dinas Pendidikan">
+      <route>7</route>
+    </stop>
+    <stop name="Manyar Airdas B">
+      <route>7</route>
+    </stop>
+    <stop name="Genteng Kali A">
+      <route>7</route>
+    </stop>
+    <stop name="Cak Durasim A">
+      <route>7</route>
+    </stop>
+    <stop name="Kalibokor Selatan B">
+      <route>7</route>
+    </stop>
+    <stop name="MPP Siola A">
+      <route>7</route>
+    </stop>
+    <stop name="Ngagel Jaya Utara B">
+      <route>7</route>
+    </stop>
+    <stop name="Ngagel Jaya Tengah B">
+      <route>7</route>
+    </stop>
+    <stop name="Stasiun Pasar Turi">
+      <route>7</route>
+    </stop>
+    <stop name="Raden Saleh">
+      <route>7</route>
+    </stop>
+    <stop name="SMPN 43">
+      <route>7</route>
+    </stop>
+    <stop name="Museum Dr. Soetomo">
+      <route>7</route>
+    </stop>
+    <stop name="Jembatan Cinta">
+      <route>R5</route>
+    </stop>
+    <stop name="UINSA 2A">
+      <route>12</route>
+    </stop>
+    <stop name="UINSA 2B">
+      <route>12</route>
+    </stop>
+    <stop name="RSUD Surabaya Timur">
+      <route>3</route>
+      <route>12</route>
+    </stop>
+    <stop name="Medokan Asri Tengah A">
+      <route>3</route>
+    </stop>
+    <stop name="Medokan Asri Tengah B">
+      <route>3</route>
+    </stop>
+    <stop name="Ngemplak A">
+      <route>5</route>
+    </stop>
+    <stop name="Alas Malang A">
+      <route>5</route>
+    </stop>
+    <stop name="Kendung A">
+      <route>5</route>
+    </stop>
+    <stop name="RS Bhakti Dharmahusada">
+      <route>5</route>
+    </stop>
+    <stop name="Kendung B">
+      <route>5</route>
+    </stop>
+    <stop name="Alas Malang B">
+      <route>5</route>
+    </stop>
+    <stop name="Ngemplak B">
+      <route>5</route>
+    </stop>
+    <stop name="Pasar Modern Citraland B">
+      <route>5</route>
+    </stop>
+  </stops>
+</transitNetwork>

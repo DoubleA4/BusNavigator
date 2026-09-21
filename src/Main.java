@@ -2,14 +2,13 @@ import java.util.List;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         // Load dummy network
-        TransitNetwork network = DummyNetworkBuilder.createDummyNetwork();
+        TransitNetwork network = TransitNetworkLoader.load("./transit_network.xml");
 
-        RouteFinder router = new RouteFinder(network);
-
-        // Find route from Central Station (S1) to Airport (S4)
-        List<Leg> journey = router.findRoute("S4", "S1");
+        Stop start = network.findStop("Jembatan Cinta");
+        Stop end = network.findStop("Wiguna A");
+        List<Leg> journey = RouteFinder.findRoute(start, end);
 
         if (journey.isEmpty()) {
             System.out.println("No route found between specified stops.");
