@@ -16,12 +16,12 @@ public class RouteFinder {
             QueueItem current = queue.poll();
             Stop currentStop = current.currentStop();
 
-            List<Route> routes = currentStop.getRoute();
+            List<Route> routes = currentStop.getRoutes();
             for (Route route : routes) {
                 if (visitedRoutes.contains(route)) continue;
                 visitedRoutes.add(route);
 
-                List<Stop> stops = route.getStop();
+                List<Stop> stops = route.getStops();
                 int boardIdx = route.stopPosition(currentStop);
                 if (boardIdx == -1) continue;
 

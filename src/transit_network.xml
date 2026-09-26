@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <transitNetwork>
   <routes>
-    <route shortName="R1" longName="Purabaya-Perak" color="#d23c41" textColor="white">
+    <route shortName="R1" longName="Purabaya-Perak" color="#d23c41" textColor="#ffffff">
       <stop>Terminal Purabaya</stop>
       <stop>Dukuh Menanggal</stop>
       <stop>Siwalankerto A</stop>
@@ -58,7 +58,7 @@
       <stop>Siwalankerto B</stop>
       <stop>Kerto Menanggal</stop>
     </route>
-    <route shortName="R2" longName="Kejawan-UNESA" color="#2f87a0" textColor="white">
+    <route shortName="R2" longName="Kejawan-UNESA" color="#2f87a0" textColor="#ffffff">
       <stop>Kejawan Putih Tambak</stop>
       <stop>PENS 1 A</stop>
       <stop>ITS</stop>
@@ -127,7 +127,7 @@
       <stop>Laguna</stop>
       <stop>PCM</stop>
     </route>
-    <route shortName="R4" longName="Purabaya-UNAIR Kampus C" color="#D7A561" textColor="white">
+    <route shortName="R4" longName="Purabaya-UNAIR Kampus C" color="#D7A561" textColor="#ffffff">
       <stop>Terminal Purabaya</stop>
       <stop>Dukuh Menanggal</stop>
       <stop>Siwalankerto A</stop>
@@ -203,7 +203,7 @@
       <stop>Siwalankerto B</stop>
       <stop>Kerto Menanggal</stop>
     </route>
-    <route shortName="R5" longName="Term. Benowo-Tunjungan" color="#FF7DB3" textColor="white">
+    <route shortName="R5" longName="Term. Benowo-Tunjungan" color="#FF7DB3" textColor="#ffffff">
       <stop>Terminal Benowo</stop>
       <stop>Singgapur A</stop>
       <stop>Raya Sumberejo A</stop>
@@ -270,7 +270,7 @@
       <stop>Kantor Kecamatan Pakal B</stop>
       <stop>Stasiun Benowo B</stop>
     </route>
-    <route shortName="2" longName="Mayjend Sungkono-Balai Kota" color="#8c2f31" textColor="white">
+    <route shortName="2" longName="Mayjend Sungkono-Balai Kota" color="#8c2f31" textColor="#ffffff">
       <stop>Park and Ride Mayjen Sungkono</stop>
       <stop>Darmo Park 1</stop>
       <stop>Bintang Diponggo A</stop>
@@ -332,7 +332,7 @@
       <stop>Darmo Park 2</stop>
       <stop>Park and Ride Mayjend Sungkono B</stop>
     </route>
-    <route shortName="3" longName="TIJ - Gunung Anyar" color="#43b0dc" textColor="white">
+    <route shortName="3" longName="TIJ - Gunung Anyar" color="#43b0dc" textColor="#ffffff">
       <stop>Terminal Joyoboyo</stop>
       <stop>KBS</stop>
       <stop>Marmoyo</stop>
@@ -489,7 +489,7 @@
       <stop>Stasiun Wonokromo B</stop>
       <stop>RSI A. Yani</stop>
     </route>
-    <route shortName="4" longName="SIER-Kota Lama" color="#8f6768" textColor="white">
+    <route shortName="4" longName="SIER-Kota Lama" color="#8f6768" textColor="#ffffff">
       <stop>RS Royal</stop>
       <stop>Kendangsari Industri A</stop>
       <stop>Kantor Pos Kendangsari A</stop>
@@ -585,7 +585,7 @@
       <stop>Kantor Pos Kendangsari B</stop>
       <stop>Kendangsari Industri B</stop>
     </route>
-    <route shortName="5" longName="Mayjend Sungkono-Puspa Raya" color="#6b9048" textColor="white">
+    <route shortName="5" longName="Mayjend Sungkono-Puspa Raya" color="#6b9048" textColor="#ffffff">
       <stop>Park and Ride Mayjen Sungkono</stop>
       <stop>Darmo Park 1</stop>
       <stop>Bintang Diponggo B</stop>
@@ -696,7 +696,7 @@
       <stop>Dukuh Kupang A</stop>
       <stop>Islamic Center A</stop>
     </route>
-    <route shortName="6" longName="TIJ - Lakarsantri" color="#da8539" textColor="white">
+    <route shortName="6" longName="TIJ - Lakarsantri" color="#da8539" textColor="#ffffff">
       <stop>Terminal Joyoboyo</stop>
       <stop>Waringin A</stop>
       <stop>Taman Ronggolawe A</stop>
@@ -801,7 +801,7 @@
       <stop>Joyoboyo 2</stop>
       <stop>RSI A. Yani</stop>
     </route>
-    <route shortName="7" longName="Term. Bratang - Stasiun Psr. Turi" color="#4165ad" textColor="white">
+    <route shortName="7" longName="Term. Bratang - Stasiun Psr. Turi" color="#4165ad" textColor="#ffffff">
       <stop>Terminal Bratang</stop>
       <stop>Ruko Barata Jaya</stop>
       <stop>Pegadaian Bratang Binangun</stop>
@@ -886,7 +886,7 @@
       <stop>Taman Flora B</stop>
       <stop>Manyar</stop>
     </route>
-    <route shortName="8" longName="TOW - UNESA" color="#3a4278" textColor="white">
+    <route shortName="8" longName="TOW - UNESA" color="#3a4278" textColor="#ffffff">
       <stop>T.O.W</stop>
       <stop>SWK Romokalisari</stop>
       <stop>Simpang Margomulyo B</stop>
@@ -918,7 +918,7 @@
       <stop>PKB Tandes A</stop>
       <stop>Simpang Margomulyo A</stop>
     </route>
-    <route shortName="9" longName="Term. Menanggal-Term. Manukan" color="#836fff" textColor="white">
+    <route shortName="9" longName="Term. Menanggal-Term. Manukan" color="#836fff" textColor="#ffffff">
       <stop>Terminal Menanggal</stop>
       <stop>Simpang Menanggal</stop>
       <stop>SWK Dukuh Menanggal</stop>
@@ -1015,7 +1015,7 @@
       <stop>SDN Menanggal 601</stop>
       <stop>SMAN 15</stop>
     </route>
-    <route shortName="10" longName="Term. Keputih-Bunguran" color="#cfbd4f" textColor="white">
+    <route shortName="10" longName="Term. Keputih-Bunguran" color="#cfbd4f" textColor="#ffffff">
       <stop>Terminal Keputih</stop>
       <stop>Bumi Marina Emas A</stop>
       <stop>Kantor LPMK Keputih A</stop>
@@ -1095,7 +1095,7 @@
       <stop>Keputih Tegal Timur 1B</stop>
       <stop>Bumi Marina Emas B</stop>
     </route>
-    <route shortName="11" longName="Terminal Bratang - Shelter Bulak" color="#db5b3b" textColor="white">
+    <route shortName="11" longName="Terminal Bratang - Shelter Bulak" color="#db5b3b" textColor="#ffffff">
       <stop>Terminal Bratang</stop>
       <stop>Simpang Barata Jaya 1</stop>
       <stop>Simpang Barata Jaya 2</stop>
@@ -1152,7 +1152,7 @@
       <stop>Taman Flora B</stop>
       <stop>Manyar</stop>
     </route>
-    <route shortName="12" longName="Purabaya-ITS-Kenjeran Park" color="#664c9c" textColor="white">
+    <route shortName="12" longName="Purabaya-ITS-Kenjeran Park" color="#664c9c" textColor="#ffffff">
       <stop>Terminal Purabaya</stop>
       <stop>UINSA 2A</stop>
       <stop>Gunung Anyar Timur A</stop>
@@ -1200,7 +1200,7 @@
       <stop>Gunung Anyar Timur B</stop>
       <stop>UINSA 2B</stop>
     </route>
-    <route shortName="SBT" longName="Bus Tumpuk" color="#febf2c" textColor="white"/>
+    <route shortName="SBT" longName="Bus Tumpuk" color="#febf2c" textColor="#ffffff"/>
   </routes>
   <stops>
     <stop name="RUNGKUT MADYA 1">

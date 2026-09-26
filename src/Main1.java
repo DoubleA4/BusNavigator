@@ -2,7 +2,7 @@ void main() throws Exception {
     TransitNetwork network = TransitNetworkLoader.load("./transit_network.xml");
 
     Stop start = network.findStop("Pens 1 a");
-    Stop end = network.findStop("Pelabuhan Tanjung Perak");
+    Stop end = network.findStop("PTC A");
     List<Leg> journey = RouteFinder.findRoute(start, end);
 
     if (journey.isEmpty()) {

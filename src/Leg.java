@@ -5,7 +5,9 @@ public record Leg(
 ) {
     @Override
     public String toString() {
-        return String.format("Board Route %s at %s ➔ Alight at %s",
-                route, boardStop.getName(), alightStop.getName());
+        return "Dari Halte " + boardStop.getName() + "\n" +
+                "Naik Rute" + "\n" +
+                route.getNameFormatted() +
+                "Turun di Halte " + alightStop.getName() + "\n";
     }
 }

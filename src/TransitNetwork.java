@@ -27,6 +27,14 @@ public class TransitNetwork {
         return result.orElse(null);
     }
 
+    public Route findRoute(String routeName) {
+        Optional<Route> result = routes.stream()
+                .filter(route -> routeName.equalsIgnoreCase(route.getShortName()))
+                .findFirst();
+
+        return result.orElse(null);
+    }
+
     public List<Stop> getStops() {
         return stops;
     }

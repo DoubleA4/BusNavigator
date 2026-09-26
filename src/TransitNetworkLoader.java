@@ -1,4 +1,3 @@
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.HashMap;
@@ -73,7 +72,7 @@ public class TransitNetworkLoader {
 
         for (Route route : network.getRoutes()) {
             System.out.println(route.getShortName() + " - " + route.getLongName());
-            for (Stop stop : route.getStop()) {
+            for (Stop stop : route.getStops()) {
                 System.out.println("  " + stop.getName());
             }
         }
