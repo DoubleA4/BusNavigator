@@ -1,3 +1,5 @@
+package id.klacak.bus_navigator;
+
 public record Leg(
         Stop boardStop,
         Route route,

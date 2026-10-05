@@ -1,3 +1,5 @@
+import id.klacak.bus_navigator.*;
+
 void main() throws Exception {
     TransitNetwork network = TransitNetworkLoader.load("./transit_network.xml");
 

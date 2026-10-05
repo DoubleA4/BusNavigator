@@ -1,3 +1,5 @@
+package id.klacak.bus_navigator;
+
 public class AnsiColor {
 
     // Helper method to turn a "#RRGGBB" hex string into an ANSI background sequence
