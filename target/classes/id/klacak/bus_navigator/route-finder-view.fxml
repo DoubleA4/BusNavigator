@@ -1,14 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="id.klacak.bus_navigator.RouteFInderViewController"
-            prefHeight="400.0" prefWidth="600.0">
+<VBox spacing="15.0" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="id.klacak.bus_navigator.RouteFinderController"
+      prefWidth="500" prefHeight="900">
 
-</AnchorPane>
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <!-- Search Panel -->
+    <VBox styleClass="panel, panel-primary">
+        <VBox styleClass="panel-heading">
+            <Label text="Bus Route Navigator" styleClass="panel-title, h4"/>
+        </VBox>
+
+        <VBox styleClass="panel-body" spacing="15.0">
+            <HBox spacing="15.0">
+                <VBox HBox.hgrow="ALWAYS" spacing="5.0">
+                    <Label text="Start Stop:" styleClass="b"/>
+                    <TextField fx:id="startField" text="Pens 1 a" styleClass="form-control"/>
+                </VBox>
+
+                <VBox HBox.hgrow="ALWAYS" spacing="5.0">
+                    <Label text="End Stop:" styleClass="b"/>
+                    <TextField fx:id="endField" text="Pelabuhan Tanjung Perak" styleClass="form-control"/>
+                </VBox>
+            </HBox>
+
+            <Button text="Find Route" onAction="#handleFindRoute" styleClass="btn, btn-primary, btn-lg"/>
+        </VBox>
+    </VBox>
+
+    <!-- Status & Itinerary Panel -->
+    <VBox styleClass="panel, panel-default" VBox.vgrow="ALWAYS">
+        <HBox styleClass="panel-heading" alignment="CENTER_LEFT" spacing="10">
+            <Label text="Journey Itinerary" styleClass="panel-title, h5"/>
+            <Label fx:id="statusBadge" text="Ready" styleClass="lbl, lbl-info"/>
+        </HBox>
+
+        <VBox styleClass="panel-body" VBox.vgrow="ALWAYS">
+            <ListView fx:id="itineraryListView" VBox.vgrow="ALWAYS"/>
+        </VBox>
+    </VBox>
+
+</VBox>

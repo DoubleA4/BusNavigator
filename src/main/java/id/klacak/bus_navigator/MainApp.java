@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import org.kordamp.bootstrapfx.BootstrapFX;
 
 public class MainApp extends Application {
 
@@ -15,7 +16,10 @@ public class MainApp extends Application {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/id/klacak/bus_navigator/route-finder-view.fxml"));
         Parent root = loader.load();
 
-        Scene scene = new Scene(root, 800, 600);
+        Scene scene = new Scene(root, 500, 900);
+
+        scene.getStylesheets().add(BootstrapFX.bootstrapFXStylesheet());
+
         stage.setTitle("Bus Navigator");
         stage.setScene(scene);
         stage.show();
