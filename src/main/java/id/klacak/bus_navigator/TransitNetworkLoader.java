@@ -5,6 +5,7 @@ import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
 import javax.xml.parsers.DocumentBuilderFactory;
+
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
@@ -33,20 +34,37 @@ public class TransitNetworkLoader {
         Map<String, Route> routesByShortName = new HashMap<>();
         Map<String, Stop> stopsByName = new HashMap<>();
 
-        NodeList routeNodes = document.getElementsByTagName("route");
-        for (int i = 0; i < routeNodes.getLength(); i++) {
-            Element routeElement = (Element) routeNodes.item(i);
+        // Load standard <route> elements
+        parseRouteElements(document.getElementsByTagName("route"), false, routesByShortName, stopsByName, network);
 
-            String shortName = routeElement.getAttribute("shortName");
-            String longName = routeElement.getAttribute("longName");
-            String color = routeElement.getAttribute("color");
-            String textColor = routeElement.getAttribute("textColor");
+        // Load <feeder> elements
+        parseRouteElements(document.getElementsByTagName("feeder"), true, routesByShortName, stopsByName, network);
 
-            Route route = new Route(shortName, longName, color, textColor);
+        return network;
+    }
+
+    private static void parseRouteElements(NodeList elements, boolean isFeeder,
+                                           Map<String, Route> routesByShortName, Map<String, Stop> stopsByName, TransitNetwork network) {
+        for (int i = 0; i < elements.getLength(); i++) {
+            Element element = (Element) elements.item(i);
+
+            String shortName = element.getAttribute("shortName");
+            String longName = element.getAttribute("longName");
+            String color = element.getAttribute("color");
+            String textColor = element.getAttribute("textColor");
+
+            // Instantiate Feeder if it's a feeder element, otherwise Route
+            Route route;
+            if (isFeeder) {
+                route = new Feeder(shortName, longName, color, textColor);
+            } else {
+                route = new Route(shortName, longName, color, textColor);
+            }
+
             routesByShortName.put(shortName, route);
             network.addRoute(route);
 
-            NodeList stopNodes = routeElement.getElementsByTagName("stop");
+            NodeList stopNodes = element.getElementsByTagName("stop");
             for (int j = 0; j < stopNodes.getLength(); j++) {
                 String stopName = stopNodes.item(j).getTextContent().trim();
                 if (stopName.isEmpty()) {
@@ -65,15 +83,17 @@ public class TransitNetworkLoader {
                 route.addStop(stop);
             }
         }
-
-        return network;
     }
 
     public static void main(String[] args) throws Exception {
         TransitNetwork network = load("transit_network.xml");
 
         for (Route route : network.getRoutes()) {
-            System.out.println(route.getShortName() + " - " + route.getLongName());
+            // instanceof check if you want to distinguish them in output,
+            // otherwise polymorphism handles them seamlessly[cite: 1]
+            String type = (route instanceof Feeder) ? "[Feeder]" : "[Route]";
+            System.out.println(type + " " + route.getShortName() + " - " + route.getLongName());
+
             for (Stop stop : route.getStops()) {
                 System.out.println("  " + stop.getName());
             }
