@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import org.controlsfx.control.SearchableComboBox?>
+
+<?import javafx.scene.control.ScrollPane?>
+<VBox spacing="15.0" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="id.klacak.bus_navigator.RouteFinderController"
+      prefWidth="500" prefHeight="900">
+
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <!-- Search Panel -->
+    <VBox styleClass="panel, panel-primary">
+        <VBox styleClass="panel-body" spacing="15.0">
+            <VBox HBox.hgrow="ALWAYS" spacing="5.0">
+                <Label text="Start Stop:" styleClass="b"/>
+                <SearchableComboBox fx:id="startField" styleClass="form-control"/>
+            </VBox>
+
+            <VBox HBox.hgrow="ALWAYS" spacing="5.0">
+                <Label text="End Stop:" styleClass="b"/>
+                <SearchableComboBox fx:id="endField" styleClass="form-control"/>
+            </VBox>
+
+            <Button text="Find Route" onAction="#handleFindRoute" styleClass="btn, btn-primary, btn-lg"/>
+        </VBox>
+    </VBox>
+
+    <ScrollPane fitToWidth="true" VBox.vgrow="ALWAYS">
+        <VBox fx:id="itineraryContainer" styleClass="timeline-container"/>
+    </ScrollPane>
+
+</VBox>

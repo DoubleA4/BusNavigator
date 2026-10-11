@@ -1,5 +1,7 @@
+import id.klacak.bus_navigator.*;
+
 void main() throws Exception {
-    TransitNetwork network = TransitNetworkLoader.load("./transit_network.xml");
+    TransitNetwork network = TransitNetworkLoader.load("id/klacak/bus_navigator/transit_network.xml");
 
     Stop start = network.findStop("Pens 1 a");
     Stop end = network.findStop("Pelabuhan Tanjung Perak");

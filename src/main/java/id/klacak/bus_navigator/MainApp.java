@@ -1,0 +1,38 @@
+package id.klacak.bus_navigator;
+
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.text.Font;
+import javafx.stage.Stage;
+import org.kordamp.bootstrapfx.BootstrapFX;
+
+public class MainApp extends Application {
+    @Override
+    public void init() throws Exception {
+        Font.loadFont(getClass().getResourceAsStream("/fonts/Sora-Regular.ttf"), 12);
+        Font.loadFont(getClass().getResourceAsStream("/fonts/Sora-Bold.ttf"), 12);
+    }
+
+    @Override
+    public void start(Stage stage) throws Exception {
+        TransitNetwork network = TransitNetworkLoader.load("id/klacak/bus_navigator/transit_network.xml");
+
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/id/klacak/bus_navigator/route-finder-view.fxml"));
+        Parent root = loader.load();
+
+        Scene scene = new Scene(root, 500, 900);
+
+        scene.getStylesheets().add(BootstrapFX.bootstrapFXStylesheet());
+        scene.getStylesheets().add("id/klacak/bus_navigator/stylesheet.css");
+
+        stage.setTitle("Bus Navigator");
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+}
