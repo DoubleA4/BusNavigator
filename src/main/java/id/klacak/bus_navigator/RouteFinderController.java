@@ -8,8 +8,14 @@ import org.controlsfx.control.SearchableComboBox;
 
 import java.util.List;
 
+/** Coordinates the route-finder view with transit data and itinerary results. */
 public class RouteFinderController {
 
+    /** Creates a controller for the FXML route-finder view. */
+    public RouteFinderController() {
+    }
+
+    /** Container populated with the visual rows of the selected itinerary. */
     public VBox itineraryContainer;
     @FXML
     private SearchableComboBox<String> startField;
@@ -20,6 +26,7 @@ public class RouteFinderController {
 
     private TransitNetwork network;
 
+    /** Loads the transit network and populates both stop selectors. */
     @FXML
     public void initialize() {
         try {
@@ -33,6 +40,7 @@ public class RouteFinderController {
         }
     }
 
+    /** Finds and displays a journey for the currently selected stops. */
     @FXML
     private void handleFindRoute() {
         String startName = startField.getValue();
@@ -51,6 +59,11 @@ public class RouteFinderController {
         displayRoute(journey);
     }
 
+    /**
+     * Replaces the displayed itinerary with rows for the supplied ride legs.
+     *
+     * @param steps ordered ride legs to display
+     */
     @FXML
     public void displayRoute(List<Leg> steps) {
         itineraryContainer.getChildren().clear();

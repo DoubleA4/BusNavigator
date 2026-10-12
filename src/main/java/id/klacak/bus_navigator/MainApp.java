@@ -8,13 +8,25 @@ import javafx.scene.text.Font;
 import javafx.stage.Stage;
 import org.kordamp.bootstrapfx.BootstrapFX;
 
+/** JavaFX application entry point for the Bus Navigator route-finder interface. */
 public class MainApp extends Application {
+    /** Creates the Bus Navigator JavaFX application. */
+    public MainApp() {
+    }
+
+    /** Loads the application's custom fonts before creating the interface. */
     @Override
     public void init() throws Exception {
         Font.loadFont(getClass().getResourceAsStream("/fonts/Sora-Regular.ttf"), 12);
         Font.loadFont(getClass().getResourceAsStream("/fonts/Sora-Bold.ttf"), 12);
     }
 
+    /**
+     * Loads the transit data and displays the route-finder scene.
+     *
+     * @param stage primary application window
+     * @throws Exception if the transit data or FXML view cannot be loaded
+     */
     @Override
     public void start(Stage stage) throws Exception {
         TransitNetwork network = TransitNetworkLoader.load("id/klacak/bus_navigator/transit_network.xml");
@@ -32,6 +44,11 @@ public class MainApp extends Application {
         stage.show();
     }
 
+    /**
+     * Launches the JavaFX application.
+     *
+     * @param args command-line arguments passed to JavaFX
+     */
     public static void main(String[] args) {
         launch(args);
     }

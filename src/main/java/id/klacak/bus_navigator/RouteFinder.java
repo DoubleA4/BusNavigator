@@ -2,7 +2,20 @@ package id.klacak.bus_navigator;
 
 import java.util.*;
 
+/** Searches a transit network for journeys between stops. */
 public class RouteFinder {
+    /** Creates a route finder. */
+    public RouteFinder() {
+    }
+
+    /**
+     * Finds a journey between two stops using the fewest ride legs found by breadth-first search.
+     * Travel follows each route's listed stop order and wraps from its last stop to its first.
+     *
+     * @param startStop stop where the journey begins
+     * @param endStop destination stop
+     * @return ordered ride legs, or an empty list if either stop is {@code null} or no journey exists
+     */
     public static List<Leg> findRoute(Stop startStop, Stop endStop) {
         if (startStop == null || endStop == null) {
             return Collections.emptyList();

@@ -8,15 +8,34 @@ import javafx.scene.layout.VBox;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Line;
 
+/** JavaFX row showing a ride leg and its position in an itinerary timeline. */
 public class LegRowNode extends HBox {
+    /**
+     * Creates a row for a ride leg without adjoining-leg context.
+     *
+     * @param step ride leg represented by this row
+     */
     public LegRowNode(Leg step) {
         this(step, 0);
     }
 
+    /**
+     * Creates a row and configures its timeline markers for the given position.
+     *
+     * @param step ride leg represented by this row
+     * @param position position marker used to draw the timeline
+     */
     public LegRowNode(Leg step, Integer position) {
         this(step, position, null);
     }
 
+    /**
+     * Creates a row with timeline context for the preceding ride leg.
+     *
+     * @param step ride leg represented by this row
+     * @param position position marker used to draw the timeline
+     * @param previous preceding ride leg, or {@code null} if there is none
+     */
     public LegRowNode(Leg step, Integer position, Leg previous) {
         super(12);
         Pane timelinePane = new Pane();

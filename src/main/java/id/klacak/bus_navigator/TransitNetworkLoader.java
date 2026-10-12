@@ -10,7 +10,20 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
+/** Loads transit networks from XML resources on the application classpath. */
 public class TransitNetworkLoader {
+    /** Creates a transit-network loader. */
+    public TransitNetworkLoader() {
+    }
+
+    /**
+     * Loads routes and stops from a classpath XML resource.
+     * A leading {@code ./} is ignored when resolving the resource path.
+     *
+     * @param xmlPath path of the XML resource relative to the classpath root
+     * @return the transit network described by the resource
+     * @throws Exception if the resource is missing or cannot be parsed
+     */
     public static TransitNetwork load(String xmlPath) throws Exception {
         // Strip leading "./" if present for classpath lookup
         String resourcePath = xmlPath.startsWith("./") ? xmlPath.substring(2) : xmlPath;
@@ -85,6 +98,12 @@ public class TransitNetworkLoader {
         }
     }
 
+    /**
+     * Prints every loaded route and its stops to standard output.
+     *
+     * @param args command-line arguments (unused)
+     * @throws Exception if the transit network resource cannot be loaded
+     */
     public static void main(String[] args) throws Exception {
         TransitNetwork network = load("transit_network.xml");
 

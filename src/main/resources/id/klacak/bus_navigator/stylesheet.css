@@ -24,3 +24,7 @@
     -fx-border-width: 2px;
     -fx-font-weight: bold;
 }
+
+.timeline-container {
+    -fx-padding: 10px;
+}

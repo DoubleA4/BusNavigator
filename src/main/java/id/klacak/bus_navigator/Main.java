@@ -1,5 +1,6 @@
 import id.klacak.bus_navigator.*;
 
+/** Loads a sample network and prints a journey between two configured stops. */
 void main() throws Exception {
     TransitNetwork network = TransitNetworkLoader.load("id/klacak/bus_navigator/transit_network.xml");
 
