@@ -25,6 +25,18 @@ public class RouteFinderController {
     private ListView<String> itineraryListView;
 
     private TransitNetwork network;
+    private MainApp mainApp;
+
+    /** Gives this controller access to the application's view navigation. */
+    public void setMainApp(MainApp mainApp) {
+        this.mainApp = mainApp;
+    }
+
+    /** Returns to the main view. */
+    @FXML
+    private void goHome() {
+        mainApp.showView("main-view.fxml");
+    }
 
     /** Loads the transit network and populates both stop selectors. */
     @FXML

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="20.0" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+    fx:controller="id.klacak.bus_navigator.MainController"
+      prefWidth="500" prefHeight="900">
+
+    <padding>
+        <Insets top="24" right="20" bottom="24" left="20"/>
+    </padding>
+
+    <VBox spacing="4.0">
+        <Label text="BUS NAVIGATOR" styleClass="h2, text-primary"/>
+        <Label text="Surabaya transit, made easier." styleClass="text-muted"/>
+    </VBox>
+
+    <VBox spacing="12.0" styleClass="panel, panel-primary">
+        <VBox spacing="8.0" styleClass="panel-heading">
+            <Label text="Plan a journey" styleClass="h4, panel-title"/>
+            <Label text="Choose a starting point and destination." styleClass="text-muted"/>
+        </VBox>
+        <VBox spacing="10.0" styleClass="panel-body">
+            <Button text="Find a route" onAction="#showRouteFinder" maxWidth="Infinity" styleClass="btn, btn-primary, btn-lg"/>
+        </VBox>
+    </VBox>
+
+    <VBox spacing="10.0">
+        <Label text="Explore" styleClass="h4"/>
+        <HBox spacing="10.0">
+            <Button text="Browse routes" onAction="#showRouteStops" HBox.hgrow="ALWAYS" maxWidth="Infinity" styleClass="btn, btn-default"/>
+            <Button text="Browse stops" onAction="#showStopRoutes" HBox.hgrow="ALWAYS" maxWidth="Infinity" styleClass="btn, btn-default"/>
+        </HBox>
+    </VBox>
+
+    <VBox spacing="12.0" VBox.vgrow="ALWAYS">
+        <Label text="On the network" styleClass="h4"/>
+        <Label fx:id="networkSummary" text="Loading transit network..." wrapText="true" styleClass="text-muted"/>
+    </VBox>
+</VBox>

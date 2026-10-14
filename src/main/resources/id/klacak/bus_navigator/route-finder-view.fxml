@@ -18,6 +18,8 @@
         <Insets top="20" right="20" bottom="20" left="20"/>
     </padding>
 
+    <Button text="‹  Home" onAction="#goHome" styleClass="btn, btn-link"/>
+
     <!-- Search Panel -->
     <VBox styleClass="panel, panel-primary">
         <VBox styleClass="panel-body" spacing="15.0">

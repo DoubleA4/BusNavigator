@@ -46,12 +46,12 @@ public class TransitNetworkLoader {
         TransitNetwork network = new TransitNetwork();
         Map<String, Route> routesByShortName = new HashMap<>();
         Map<String, Stop> stopsByName = new HashMap<>();
+        Element routesElement = (Element) document.getElementsByTagName("routes").item(0);
 
-        // Load standard <route> elements
-        parseRouteElements(document.getElementsByTagName("route"), false, routesByShortName, stopsByName, network);
+        // Route references under <stops> are not service definitions.
+        parseRouteElements(routesElement.getElementsByTagName("route"), false, routesByShortName, stopsByName, network);
 
-        // Load <feeder> elements
-        parseRouteElements(document.getElementsByTagName("feeder"), true, routesByShortName, stopsByName, network);
+        parseRouteElements(routesElement.getElementsByTagName("feeder"), true, routesByShortName, stopsByName, network);
 
         return network;
     }
@@ -105,7 +105,7 @@ public class TransitNetworkLoader {
      * @throws Exception if the transit network resource cannot be loaded
      */
     public static void main(String[] args) throws Exception {
-        TransitNetwork network = load("transit_network.xml");
+        TransitNetwork network = load("id/klacak/bus_navigator/transit_network.xml");
 
         for (Route route : network.getRoutes()) {
             // instanceof check if you want to distinguish them in output,

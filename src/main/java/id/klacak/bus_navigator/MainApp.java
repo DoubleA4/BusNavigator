@@ -8,8 +8,12 @@ import javafx.scene.text.Font;
 import javafx.stage.Stage;
 import org.kordamp.bootstrapfx.BootstrapFX;
 
+import java.io.IOException;
+
 /** JavaFX application entry point for the Bus Navigator route-finder interface. */
 public class MainApp extends Application {
+    private Stage primaryStage;
+
     /** Creates the Bus Navigator JavaFX application. */
     public MainApp() {
     }
@@ -21,27 +25,40 @@ public class MainApp extends Application {
         Font.loadFont(getClass().getResourceAsStream("/fonts/Sora-Bold.ttf"), 12);
     }
 
-    /**
-     * Loads the transit data and displays the route-finder scene.
-     *
-     * @param stage primary application window
-     * @throws Exception if the transit data or FXML view cannot be loaded
-     */
+    /** Opens the main view in the primary application window. */
     @Override
-    public void start(Stage stage) throws Exception {
-        TransitNetwork network = TransitNetworkLoader.load("id/klacak/bus_navigator/transit_network.xml");
-
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/id/klacak/bus_navigator/route-finder-view.fxml"));
-        Parent root = loader.load();
-
-        Scene scene = new Scene(root, 500, 900);
-
-        scene.getStylesheets().add(BootstrapFX.bootstrapFXStylesheet());
-        scene.getStylesheets().add("id/klacak/bus_navigator/stylesheet.css");
-
+    public void start(Stage stage) {
+        primaryStage = stage;
         stage.setTitle("Bus Navigator");
-        stage.setScene(scene);
+        showView("main-view.fxml");
         stage.show();
+    }
+
+    /** Loads a view, connects its controller, and displays it in the primary stage. */
+    public void showView(String viewName) {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource(
+                    "/id/klacak/bus_navigator/" + viewName));
+            Parent root = loader.load();
+            Object controller = loader.getController();
+
+            if (controller instanceof MainController mainController) {
+                mainController.setMainApp(this);
+            } else if (controller instanceof RouteFinderController routeFinderController) {
+                routeFinderController.setMainApp(this);
+            } else if (controller instanceof RouteStopsController routeStopsController) {
+                routeStopsController.setMainApp(this);
+            } else if (controller instanceof StopRoutesController stopRoutesController) {
+                stopRoutesController.setMainApp(this);
+            }
+
+            Scene scene = new Scene(root, 500, 900);
+            scene.getStylesheets().add(BootstrapFX.bootstrapFXStylesheet());
+            scene.getStylesheets().add("id/klacak/bus_navigator/stylesheet.css");
+            primaryStage.setScene(scene);
+        } catch (IOException e) {
+            throw new IllegalStateException("Unable to load view: " + viewName, e);
+        }
     }
 
     /**
